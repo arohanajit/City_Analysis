@@ -1,0 +1,4717 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_ad20b6e4c2934d5981ba7c37f4f1bd8b {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ad20b6e4c2934d5981ba7c37f4f1bd8b" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_ad20b6e4c2934d5981ba7c37f4f1bd8b = L.map(
+                                  'map_ad20b6e4c2934d5981ba7c37f4f1bd8b',
+                                  {center: [12.966180000000065,77.58690000000007],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_e8cfdf7070414c6280034cc24763ceb1 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+        
+    
+            var circle_marker_df3a9221248d426ca4e18a185dad585c = L.circleMarker(
+                [13.09931000000006,77.59259000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_83b49a31fbe24eb0bd0410f3a60a3b21 = L.popup({maxWidth: '300'});
+
+            
+                var html_31c966127fab40f7840396ced9dc2e6f = $('<div id="html_31c966127fab40f7840396ced9dc2e6f" style="width: 100.0%; height: 100.0%;">Kempegowda, Yelahanka</div>')[0];
+                popup_83b49a31fbe24eb0bd0410f3a60a3b21.setContent(html_31c966127fab40f7840396ced9dc2e6f);
+            
+
+            circle_marker_df3a9221248d426ca4e18a185dad585c.bindPopup(popup_83b49a31fbe24eb0bd0410f3a60a3b21);
+
+            
+        
+    
+            var circle_marker_e9d868804c0c46a1bcaba011eb0978a5 = L.circleMarker(
+                [13.108110000000067,77.59366000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_aacef1f3b3df4a2f9d211e4b026e49a8 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d5ecd1c0c3f4923b2d8e8b73769691f = $('<div id="html_8d5ecd1c0c3f4923b2d8e8b73769691f" style="width: 100.0%; height: 100.0%;">Chowdeshwari, Yelahanka</div>')[0];
+                popup_aacef1f3b3df4a2f9d211e4b026e49a8.setContent(html_8d5ecd1c0c3f4923b2d8e8b73769691f);
+            
+
+            circle_marker_e9d868804c0c46a1bcaba011eb0978a5.bindPopup(popup_aacef1f3b3df4a2f9d211e4b026e49a8);
+
+            
+        
+    
+            var circle_marker_a7d3fb3f87c84cf5b4514b2409316833 = L.circleMarker(
+                [13.09698000000003,77.58406000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_597ff2c1b99f4460bf4d41dd07e6e20c = L.popup({maxWidth: '300'});
+
+            
+                var html_50ce5b456b514459a8c91ad44a051749 = $('<div id="html_50ce5b456b514459a8c91ad44a051749" style="width: 100.0%; height: 100.0%;">Yelahanka Satellite Town, Yelahanka</div>')[0];
+                popup_597ff2c1b99f4460bf4d41dd07e6e20c.setContent(html_50ce5b456b514459a8c91ad44a051749);
+            
+
+            circle_marker_a7d3fb3f87c84cf5b4514b2409316833.bindPopup(popup_597ff2c1b99f4460bf4d41dd07e6e20c);
+
+            
+        
+    
+            var circle_marker_0ff2713a7592406593ecfe8b2abbbf0f = L.circleMarker(
+                [12.951940000000036,77.54445000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_244bc23ccc5f4359886f0dcf077b975e = L.popup({maxWidth: '300'});
+
+            
+                var html_8868388e1e7346d292b4d1e2ff3a50fb = $('<div id="html_8868388e1e7346d292b4d1e2ff3a50fb" style="width: 100.0%; height: 100.0%;">Jakkur, Byatarayanapura</div>')[0];
+                popup_244bc23ccc5f4359886f0dcf077b975e.setContent(html_8868388e1e7346d292b4d1e2ff3a50fb);
+            
+
+            circle_marker_0ff2713a7592406593ecfe8b2abbbf0f.bindPopup(popup_244bc23ccc5f4359886f0dcf077b975e);
+
+            
+        
+    
+            var circle_marker_2c7ce4d34a164875a772933db0bce336 = L.circleMarker(
+                [13.062510000000032,77.55907000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_475223fa89d0438585d364e70ba8c318 = L.popup({maxWidth: '300'});
+
+            
+                var html_23d966b4c2e549698fd062bfe5cfc20f = $('<div id="html_23d966b4c2e549698fd062bfe5cfc20f" style="width: 100.0%; height: 100.0%;">Doddabommasandra, Byatarayanapura</div>')[0];
+                popup_475223fa89d0438585d364e70ba8c318.setContent(html_23d966b4c2e549698fd062bfe5cfc20f);
+            
+
+            circle_marker_2c7ce4d34a164875a772933db0bce336.bindPopup(popup_475223fa89d0438585d364e70ba8c318);
+
+            
+        
+    
+            var circle_marker_38372cb06d854f88a5d097889fb4ff53 = L.circleMarker(
+                [12.95560000000006,77.54466000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_79e3a850f59141749f7066605870e17f = L.popup({maxWidth: '300'});
+
+            
+                var html_b5dca29dc1a145c0a46302601a72ffe0 = $('<div id="html_b5dca29dc1a145c0a46302601a72ffe0" style="width: 100.0%; height: 100.0%;">Kuvempu Nagar, Byatarayanapura</div>')[0];
+                popup_79e3a850f59141749f7066605870e17f.setContent(html_b5dca29dc1a145c0a46302601a72ffe0);
+            
+
+            circle_marker_38372cb06d854f88a5d097889fb4ff53.bindPopup(popup_79e3a850f59141749f7066605870e17f);
+
+            
+        
+    
+            var circle_marker_154c399882e5479284efae9f63b1d73d = L.circleMarker(
+                [13.04224000000005,77.51507000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_505f8c1da94c45d4a0d88d83e8e89143 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ac704fbcf73446eb2b87582e41bf25f = $('<div id="html_5ac704fbcf73446eb2b87582e41bf25f" style="width: 100.0%; height: 100.0%;">Shettyhalli, Dasarahalli</div>')[0];
+                popup_505f8c1da94c45d4a0d88d83e8e89143.setContent(html_5ac704fbcf73446eb2b87582e41bf25f);
+            
+
+            circle_marker_154c399882e5479284efae9f63b1d73d.bindPopup(popup_505f8c1da94c45d4a0d88d83e8e89143);
+
+            
+        
+    
+            var circle_marker_61137fbde35841819e28ab8be20e16ac = L.circleMarker(
+                [13.056070000000034,77.51230000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_dacd4b3f5dce49e48a16f818f9efe7b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_26312cddefbd4a88b2266835336ce9a4 = $('<div id="html_26312cddefbd4a88b2266835336ce9a4" style="width: 100.0%; height: 100.0%;">Mallasandra, Dasarahalli</div>')[0];
+                popup_dacd4b3f5dce49e48a16f818f9efe7b3.setContent(html_26312cddefbd4a88b2266835336ce9a4);
+            
+
+            circle_marker_61137fbde35841819e28ab8be20e16ac.bindPopup(popup_dacd4b3f5dce49e48a16f818f9efe7b3);
+
+            
+        
+    
+            var circle_marker_6b3b083393994513adcb4f54162ddcf4 = L.circleMarker(
+                [13.056990000000042,77.50736000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_95c7abc38d1b41e1b4301166e68c9e9b = L.popup({maxWidth: '300'});
+
+            
+                var html_d99ac31c90d64751b41b90fa131628f5 = $('<div id="html_d99ac31c90d64751b41b90fa131628f5" style="width: 100.0%; height: 100.0%;">Bagalagunte, Dasarahalli</div>')[0];
+                popup_95c7abc38d1b41e1b4301166e68c9e9b.setContent(html_d99ac31c90d64751b41b90fa131628f5);
+            
+
+            circle_marker_6b3b083393994513adcb4f54162ddcf4.bindPopup(popup_95c7abc38d1b41e1b4301166e68c9e9b);
+
+            
+        
+    
+            var circle_marker_c4d948b7000a493fa9b4bd323a4948a9 = L.circleMarker(
+                [12.93178000000006,77.52668000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_22e77756ed8f41f0b73eaec6a0a6b755 = L.popup({maxWidth: '300'});
+
+            
+                var html_d0f7a041f8794de68bd452f630efaff0 = $('<div id="html_d0f7a041f8794de68bd452f630efaff0" style="width: 100.0%; height: 100.0%;">Jalahalli, Rajarajeshwarinagar</div>')[0];
+                popup_22e77756ed8f41f0b73eaec6a0a6b755.setContent(html_d0f7a041f8794de68bd452f630efaff0);
+            
+
+            circle_marker_c4d948b7000a493fa9b4bd323a4948a9.bindPopup(popup_22e77756ed8f41f0b73eaec6a0a6b755);
+
+            
+        
+    
+            var circle_marker_94af665fc72e4668bd3d116c023180b5 = L.circleMarker(
+                [12.92479000000003,77.51797000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_ee6e64e069404f0dba8e12585ae5d0a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c658969e75b4884abb5d416f8ed6c76 = $('<div id="html_5c658969e75b4884abb5d416f8ed6c76" style="width: 100.0%; height: 100.0%;">J.P.Park, Rajarajeshwarinagar</div>')[0];
+                popup_ee6e64e069404f0dba8e12585ae5d0a9.setContent(html_5c658969e75b4884abb5d416f8ed6c76);
+            
+
+            circle_marker_94af665fc72e4668bd3d116c023180b5.bindPopup(popup_ee6e64e069404f0dba8e12585ae5d0a9);
+
+            
+        
+    
+            var circle_marker_e64217cc438f4172b1c4df13e4aa3a7a = L.circleMarker(
+                [12.980240000000038,77.67939000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_fed8d3f473b84da9863acfbba6f69cb6 = L.popup({maxWidth: '300'});
+
+            
+                var html_1a9e2fe2666e4bf181c912ea0afcccd4 = $('<div id="html_1a9e2fe2666e4bf181c912ea0afcccd4" style="width: 100.0%; height: 100.0%;">Radhakrishna Temple, Hebbal</div>')[0];
+                popup_fed8d3f473b84da9863acfbba6f69cb6.setContent(html_1a9e2fe2666e4bf181c912ea0afcccd4);
+            
+
+            circle_marker_e64217cc438f4172b1c4df13e4aa3a7a.bindPopup(popup_fed8d3f473b84da9863acfbba6f69cb6);
+
+            
+        
+    
+            var circle_marker_8980f42024e64808ac27c226cd8a193d = L.circleMarker(
+                [13.036940000000072,77.57461000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_8c5298b8a1c144ee8188e4feed573f07 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b41cf618b594d69848b690837354fc4 = $('<div id="html_6b41cf618b594d69848b690837354fc4" style="width: 100.0%; height: 100.0%;">Sanjay Nagar, Hebbal</div>')[0];
+                popup_8c5298b8a1c144ee8188e4feed573f07.setContent(html_6b41cf618b594d69848b690837354fc4);
+            
+
+            circle_marker_8980f42024e64808ac27c226cd8a193d.bindPopup(popup_8c5298b8a1c144ee8188e4feed573f07);
+
+            
+        
+    
+            var circle_marker_f9156c7d597c4e418f7b62321442337a = L.circleMarker(
+                [13.014450000000068,77.58808000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_4416d115b90b47c19c2d521124552558 = L.popup({maxWidth: '300'});
+
+            
+                var html_f981b90516fb439886bc71bcba20e24d = $('<div id="html_f981b90516fb439886bc71bcba20e24d" style="width: 100.0%; height: 100.0%;">Ganga Nagar, Hebbal</div>')[0];
+                popup_4416d115b90b47c19c2d521124552558.setContent(html_f981b90516fb439886bc71bcba20e24d);
+            
+
+            circle_marker_f9156c7d597c4e418f7b62321442337a.bindPopup(popup_4416d115b90b47c19c2d521124552558);
+
+            
+        
+    
+            var circle_marker_f1a0965b4dd1420ea5e6559e06ada065 = L.circleMarker(
+                [13.049810000000036,77.58903000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_f873cc9451044f8e85aa7c8b08583704 = L.popup({maxWidth: '300'});
+
+            
+                var html_d29ff12f83524fd9bdc904833fd3a293 = $('<div id="html_d29ff12f83524fd9bdc904833fd3a293" style="width: 100.0%; height: 100.0%;">Hebbal, Hebbal</div>')[0];
+                popup_f873cc9451044f8e85aa7c8b08583704.setContent(html_d29ff12f83524fd9bdc904833fd3a293);
+            
+
+            circle_marker_f1a0965b4dd1420ea5e6559e06ada065.bindPopup(popup_f873cc9451044f8e85aa7c8b08583704);
+
+            
+        
+    
+            var circle_marker_6e41051b5ed344c5aaf72e43c68acdeb = L.circleMarker(
+                [13.03974110885628,77.59464472785932],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_8025f71a5cc24a159f1827fc9fd3b2a5 = L.popup({maxWidth: '300'});
+
+            
+                var html_a902c5dbf3cb4b94bda3f4ff67fae4dd = $('<div id="html_a902c5dbf3cb4b94bda3f4ff67fae4dd" style="width: 100.0%; height: 100.0%;">Vishwanathnagenahalli, Hebbal</div>')[0];
+                popup_8025f71a5cc24a159f1827fc9fd3b2a5.setContent(html_a902c5dbf3cb4b94bda3f4ff67fae4dd);
+            
+
+            circle_marker_6e41051b5ed344c5aaf72e43c68acdeb.bindPopup(popup_8025f71a5cc24a159f1827fc9fd3b2a5);
+
+            
+        
+    
+            var circle_marker_d917b51dce6a44398e2528ef00d00d7f = L.circleMarker(
+                [12.981510000000071,77.62955000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_3cc4db36c7b24a47be060a4ef6888c31 = L.popup({maxWidth: '300'});
+
+            
+                var html_1b2f7eac5c2e46118531d9af9af82f23 = $('<div id="html_1b2f7eac5c2e46118531d9af9af82f23" style="width: 100.0%; height: 100.0%;">Nagavara, Sarvagnanagar</div>')[0];
+                popup_3cc4db36c7b24a47be060a4ef6888c31.setContent(html_1b2f7eac5c2e46118531d9af9af82f23);
+            
+
+            circle_marker_d917b51dce6a44398e2528ef00d00d7f.bindPopup(popup_3cc4db36c7b24a47be060a4ef6888c31);
+
+            
+        
+    
+            var circle_marker_2e92f852f50b4598bb7041eeee279d18 = L.circleMarker(
+                [12.987400000000036,77.64489000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0cabcfb76c634fc4886bcef6c582d7eb = L.popup({maxWidth: '300'});
+
+            
+                var html_183f0f7f01da475f89844f8673612f3a = $('<div id="html_183f0f7f01da475f89844f8673612f3a" style="width: 100.0%; height: 100.0%;">HBR Layout, Sarvagnanagar</div>')[0];
+                popup_0cabcfb76c634fc4886bcef6c582d7eb.setContent(html_183f0f7f01da475f89844f8673612f3a);
+            
+
+            circle_marker_2e92f852f50b4598bb7041eeee279d18.bindPopup(popup_0cabcfb76c634fc4886bcef6c582d7eb);
+
+            
+        
+    
+            var circle_marker_2919152ad2c94ccf857cd13d2d9dc26f = L.circleMarker(
+                [13.000390000000039,77.68368000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_c05c862aa5d5468dabf81d54ea54a615 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc93f140c8be4b50bcabff65e5f8324c = $('<div id="html_cc93f140c8be4b50bcabff65e5f8324c" style="width: 100.0%; height: 100.0%;">Horamavu, Krishnarajapuram</div>')[0];
+                popup_c05c862aa5d5468dabf81d54ea54a615.setContent(html_cc93f140c8be4b50bcabff65e5f8324c);
+            
+
+            circle_marker_2919152ad2c94ccf857cd13d2d9dc26f.bindPopup(popup_c05c862aa5d5468dabf81d54ea54a615);
+
+            
+        
+    
+            var circle_marker_2796e3b28ab84cedb6003f3d04db711a = L.circleMarker(
+                [13.012981686060433,77.66347772666762],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_26896d5db592442c8a0baf1e5df04abf = L.popup({maxWidth: '300'});
+
+            
+                var html_5af65aa42a6e4669981bb0005b84684b = $('<div id="html_5af65aa42a6e4669981bb0005b84684b" style="width: 100.0%; height: 100.0%;">Ramamurthy Nagar, Krishnarajapuram</div>')[0];
+                popup_26896d5db592442c8a0baf1e5df04abf.setContent(html_5af65aa42a6e4669981bb0005b84684b);
+            
+
+            circle_marker_2796e3b28ab84cedb6003f3d04db711a.bindPopup(popup_26896d5db592442c8a0baf1e5df04abf);
+
+            
+        
+    
+            var circle_marker_276c6d0a880440b99a0f227a22837734 = L.circleMarker(
+                [13.020580000000052,77.63287000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_d527127f55234d2595556fb99d90d88c = L.popup({maxWidth: '300'});
+
+            
+                var html_81163d55b2344cb5aae5da7e036414ec = $('<div id="html_81163d55b2344cb5aae5da7e036414ec" style="width: 100.0%; height: 100.0%;">Kacharakanahalli, Sarvagnanagar</div>')[0];
+                popup_d527127f55234d2595556fb99d90d88c.setContent(html_81163d55b2344cb5aae5da7e036414ec);
+            
+
+            circle_marker_276c6d0a880440b99a0f227a22837734.bindPopup(popup_d527127f55234d2595556fb99d90d88c);
+
+            
+        
+    
+            var circle_marker_4e3fa3ca49574008bc67d2af648faae0 = L.circleMarker(
+                [13.021560000000022,77.61920000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_d0677c74c559497db56bcbae56784f32 = L.popup({maxWidth: '300'});
+
+            
+                var html_706b26df69b643e2a693681f52c9a9e9 = $('<div id="html_706b26df69b643e2a693681f52c9a9e9" style="width: 100.0%; height: 100.0%;">Kadugondanahalli, Sarvagnanagar</div>')[0];
+                popup_d0677c74c559497db56bcbae56784f32.setContent(html_706b26df69b643e2a693681f52c9a9e9);
+            
+
+            circle_marker_4e3fa3ca49574008bc67d2af648faae0.bindPopup(popup_d0677c74c559497db56bcbae56784f32);
+
+            
+        
+    
+            var circle_marker_b075ec0a7e154fe7bc2c5b6f2ae417a5 = L.circleMarker(
+                [12.999650000000031,77.61528000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_5ff2e36632d64af198b45ff75491e630 = L.popup({maxWidth: '300'});
+
+            
+                var html_e9263b5ca1b54378bae5c8fa782f84bb = $('<div id="html_e9263b5ca1b54378bae5c8fa782f84bb" style="width: 100.0%; height: 100.0%;">Kushal Nagar, Pulakeshinagar</div>')[0];
+                popup_5ff2e36632d64af198b45ff75491e630.setContent(html_e9263b5ca1b54378bae5c8fa782f84bb);
+            
+
+            circle_marker_b075ec0a7e154fe7bc2c5b6f2ae417a5.bindPopup(popup_5ff2e36632d64af198b45ff75491e630);
+
+            
+        
+    
+            var circle_marker_1d479455aa2e41d8b3e54f29b6dba830 = L.circleMarker(
+                [13.030120000000068,77.60271000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_d1c362e3270f4b55895ab6a7d3e79068 = L.popup({maxWidth: '300'});
+
+            
+                var html_c29536bda4674c7cb6c076a3fa9b1a43 = $('<div id="html_c29536bda4674c7cb6c076a3fa9b1a43" style="width: 100.0%; height: 100.0%;">Manorayanapalya, Hebbal</div>')[0];
+                popup_d1c362e3270f4b55895ab6a7d3e79068.setContent(html_c29536bda4674c7cb6c076a3fa9b1a43);
+            
+
+            circle_marker_1d479455aa2e41d8b3e54f29b6dba830.bindPopup(popup_d1c362e3270f4b55895ab6a7d3e79068);
+
+            
+        
+    
+            var circle_marker_1fa0d60ec092418ab6f494a62b2909cb = L.circleMarker(
+                [12.982760000000042,77.39203000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_8bb8d3bd8ebc4d4abbda4f145185555c = L.popup({maxWidth: '300'});
+
+            
+                var html_67df4bf4e78b4096bb9ffc026a8a41a7 = $('<div id="html_67df4bf4e78b4096bb9ffc026a8a41a7" style="width: 100.0%; height: 100.0%;">Gangenahalli, Hebbal</div>')[0];
+                popup_8bb8d3bd8ebc4d4abbda4f145185555c.setContent(html_67df4bf4e78b4096bb9ffc026a8a41a7);
+            
+
+            circle_marker_1fa0d60ec092418ab6f494a62b2909cb.bindPopup(popup_8bb8d3bd8ebc4d4abbda4f145185555c);
+
+            
+        
+    
+            var circle_marker_b46b1a9bab84480b981d4ad05b119738 = L.circleMarker(
+                [12.995000000000061,77.57346000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_c7f578db2bae4c608daf490b1d0dcd41 = L.popup({maxWidth: '300'});
+
+            
+                var html_1320004051bc4a6cbdd63ddece7e76a7 = $('<div id="html_1320004051bc4a6cbdd63ddece7e76a7" style="width: 100.0%; height: 100.0%;">Aramane Nagar, Malleshwaram</div>')[0];
+                popup_c7f578db2bae4c608daf490b1d0dcd41.setContent(html_1320004051bc4a6cbdd63ddece7e76a7);
+            
+
+            circle_marker_b46b1a9bab84480b981d4ad05b119738.bindPopup(popup_c7f578db2bae4c608daf490b1d0dcd41);
+
+            
+        
+    
+            var circle_marker_91b5ab872dff49ed9b8e936993817ac2 = L.circleMarker(
+                [13.065450000000055,77.50822000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_44b25a3b0db14f84810d882031604a3b = L.popup({maxWidth: '300'});
+
+            
+                var html_4210af63c8f94053879d9473d5f10845 = $('<div id="html_4210af63c8f94053879d9473d5f10845" style="width: 100.0%; height: 100.0%;">Chokkasandra, Dasarahalli</div>')[0];
+                popup_44b25a3b0db14f84810d882031604a3b.setContent(html_4210af63c8f94053879d9473d5f10845);
+            
+
+            circle_marker_91b5ab872dff49ed9b8e936993817ac2.bindPopup(popup_44b25a3b0db14f84810d882031604a3b);
+
+            
+        
+    
+            var circle_marker_656ad53e4bd141f6bec0455068f5d5a0 = L.circleMarker(
+                [13.033730000000048,77.49577000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_8996276d670b4a8c8a715ae199822b17 = L.popup({maxWidth: '300'});
+
+            
+                var html_724103d9302d4516a4ce7dc854f93fda = $('<div id="html_724103d9302d4516a4ce7dc854f93fda" style="width: 100.0%; height: 100.0%;">Dodda Bidarkallu, Yeshwanthpur</div>')[0];
+                popup_8996276d670b4a8c8a715ae199822b17.setContent(html_724103d9302d4516a4ce7dc854f93fda);
+            
+
+            circle_marker_656ad53e4bd141f6bec0455068f5d5a0.bindPopup(popup_8996276d670b4a8c8a715ae199822b17);
+
+            
+        
+    
+            var circle_marker_e836d270e2844deba3b4462de2c009ca = L.circleMarker(
+                [13.042770000000075,77.51324000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_3683accc05974a7aa876261bcb94136a = L.popup({maxWidth: '300'});
+
+            
+                var html_83ca6d0517564383a579713f4bae5836 = $('<div id="html_83ca6d0517564383a579713f4bae5836" style="width: 100.0%; height: 100.0%;">Peenya Industrial Area, Dasarahalli</div>')[0];
+                popup_3683accc05974a7aa876261bcb94136a.setContent(html_83ca6d0517564383a579713f4bae5836);
+            
+
+            circle_marker_e836d270e2844deba3b4462de2c009ca.bindPopup(popup_3683accc05974a7aa876261bcb94136a);
+
+            
+        
+    
+            var circle_marker_ef6aec502f9349408128a3033192a0fe = L.circleMarker(
+                [13.008554926087054,77.54310284011862],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0bdb815dc9ad485d98de970dd662ec17 = L.popup({maxWidth: '300'});
+
+            
+                var html_4cadac3ef9e4433a94a2d6d7c855aa4d = $('<div id="html_4cadac3ef9e4433a94a2d6d7c855aa4d" style="width: 100.0%; height: 100.0%;">Nandini Layout, Mahalakshmi Layout</div>')[0];
+                popup_0bdb815dc9ad485d98de970dd662ec17.setContent(html_4cadac3ef9e4433a94a2d6d7c855aa4d);
+            
+
+            circle_marker_ef6aec502f9349408128a3033192a0fe.bindPopup(popup_0bdb815dc9ad485d98de970dd662ec17);
+
+            
+        
+    
+            var circle_marker_1f5f197785f6415cb066732769e6f029 = L.circleMarker(
+                [13.018887,77.54625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_aad0572e0dbb4aaaacc3e4339edb34c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_c30120ad1cab43d595560909162f3a60 = $('<div id="html_c30120ad1cab43d595560909162f3a60" style="width: 100.0%; height: 100.0%;">Marappana Palya, Mahalakshmi Layout</div>')[0];
+                popup_aad0572e0dbb4aaaacc3e4339edb34c2.setContent(html_c30120ad1cab43d595560909162f3a60);
+            
+
+            circle_marker_1f5f197785f6415cb066732769e6f029.bindPopup(popup_aad0572e0dbb4aaaacc3e4339edb34c2);
+
+            
+        
+    
+            var circle_marker_ca4d8819919041fc995e3d6b60e25a87 = L.circleMarker(
+                [13.014440000000036,77.59951000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_dc3dc19f33954fe483e950e9dd10ebf7 = L.popup({maxWidth: '300'});
+
+            
+                var html_e4439d131b424b3a91cb715a342ca9ad = $('<div id="html_e4439d131b424b3a91cb715a342ca9ad" style="width: 100.0%; height: 100.0%;">Devarajeevanahalli, Pulakeshinagar</div>')[0];
+                popup_dc3dc19f33954fe483e950e9dd10ebf7.setContent(html_e4439d131b424b3a91cb715a342ca9ad);
+            
+
+            circle_marker_ca4d8819919041fc995e3d6b60e25a87.bindPopup(popup_dc3dc19f33954fe483e950e9dd10ebf7);
+
+            
+        
+    
+            var circle_marker_e9dee9286bfa4cb08aa0863bdc7c3c11 = L.circleMarker(
+                [13.052960000000041,77.49999000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_eec3a47070994375895e25541366facc = L.popup({maxWidth: '300'});
+
+            
+                var html_85cc49760ff246c1afe66dd25b71f775 = $('<div id="html_85cc49760ff246c1afe66dd25b71f775" style="width: 100.0%; height: 100.0%;">Muneshwara Nagar, Pulakeshinagar</div>')[0];
+                popup_eec3a47070994375895e25541366facc.setContent(html_85cc49760ff246c1afe66dd25b71f775);
+            
+
+            circle_marker_e9dee9286bfa4cb08aa0863bdc7c3c11.bindPopup(popup_eec3a47070994375895e25541366facc);
+
+            
+        
+    
+            var circle_marker_6f183a820a4e4f4a8a24b41303da9fb6 = L.circleMarker(
+                [13.005480000000034,77.62597000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_8e0514ce373f40f9aa599ad00c6579f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_05ca560a03cf4ee48b96488ab411bb9f = $('<div id="html_05ca560a03cf4ee48b96488ab411bb9f" style="width: 100.0%; height: 100.0%;">Lingarajapuram, Sarvagnanagar</div>')[0];
+                popup_8e0514ce373f40f9aa599ad00c6579f9.setContent(html_05ca560a03cf4ee48b96488ab411bb9f);
+            
+
+            circle_marker_6f183a820a4e4f4a8a24b41303da9fb6.bindPopup(popup_8e0514ce373f40f9aa599ad00c6579f9);
+
+            
+        
+    
+            var circle_marker_9c7a35601dee458195ad02d0863c34e8 = L.circleMarker(
+                [12.99610000000007,77.65369000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_64c4f40d7ea645bb8a37137d930b4019 = L.popup({maxWidth: '300'});
+
+            
+                var html_10ccbeb49f8540278badf491d644d24b = $('<div id="html_10ccbeb49f8540278badf491d644d24b" style="width: 100.0%; height: 100.0%;">Benniganahalli, CV Raman Nagar</div>')[0];
+                popup_64c4f40d7ea645bb8a37137d930b4019.setContent(html_10ccbeb49f8540278badf491d644d24b);
+            
+
+            circle_marker_9c7a35601dee458195ad02d0863c34e8.bindPopup(popup_64c4f40d7ea645bb8a37137d930b4019);
+
+            
+        
+    
+            var circle_marker_72a98bd0aded43ebb034b3ca0370b419 = L.circleMarker(
+                [13.002540000000067,77.66764000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_562d69ee78f34eb0a452840b1f433b7a = L.popup({maxWidth: '300'});
+
+            
+                var html_be97b4132232419c8b9f04cb5d3f2fad = $('<div id="html_be97b4132232419c8b9f04cb5d3f2fad" style="width: 100.0%; height: 100.0%;">Vijanapura, Krishnarajapuram</div>')[0];
+                popup_562d69ee78f34eb0a452840b1f433b7a.setContent(html_be97b4132232419c8b9f04cb5d3f2fad);
+            
+
+            circle_marker_72a98bd0aded43ebb034b3ca0370b419.bindPopup(popup_562d69ee78f34eb0a452840b1f433b7a);
+
+            
+        
+    
+            var circle_marker_c1f307cb5ab049c4a895dbd9ca29e9a6 = L.circleMarker(
+                [13.010359747738747,77.70398949095494],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_dc51b1ddba67485c80d3c1434c301e05 = L.popup({maxWidth: '300'});
+
+            
+                var html_182fff25527e41e2aa21601d5722090d = $('<div id="html_182fff25527e41e2aa21601d5722090d" style="width: 100.0%; height: 100.0%;">Basavanapura, Krishnarajapuram</div>')[0];
+                popup_dc51b1ddba67485c80d3c1434c301e05.setContent(html_182fff25527e41e2aa21601d5722090d);
+            
+
+            circle_marker_c1f307cb5ab049c4a895dbd9ca29e9a6.bindPopup(popup_dc51b1ddba67485c80d3c1434c301e05);
+
+            
+        
+    
+            var circle_marker_1939202d227f47cdb00cc7e5734a6c18 = L.circleMarker(
+                [12.99579256801288,77.69929087200168],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_8160aa1ef3564d59bf5d309a32acf867 = L.popup({maxWidth: '300'});
+
+            
+                var html_dce863446f1e43e38faaf032486e407f = $('<div id="html_dce863446f1e43e38faaf032486e407f" style="width: 100.0%; height: 100.0%;">Hoodi, Mahadevapura</div>')[0];
+                popup_8160aa1ef3564d59bf5d309a32acf867.setContent(html_dce863446f1e43e38faaf032486e407f);
+            
+
+            circle_marker_1939202d227f47cdb00cc7e5734a6c18.bindPopup(popup_8160aa1ef3564d59bf5d309a32acf867);
+
+            
+        
+    
+            var circle_marker_ba1da4ef42144cafaef749e7bb0eaec9 = L.circleMarker(
+                [13.006780000000049,77.70097000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_1b6d8317342149a5aec568fad2931de1 = L.popup({maxWidth: '300'});
+
+            
+                var html_6744b589f6b4407d81ebcdcdd04bfdb6 = $('<div id="html_6744b589f6b4407d81ebcdcdd04bfdb6" style="width: 100.0%; height: 100.0%;">Devasandra, Krishnarajapuram</div>')[0];
+                popup_1b6d8317342149a5aec568fad2931de1.setContent(html_6744b589f6b4407d81ebcdcdd04bfdb6);
+            
+
+            circle_marker_ba1da4ef42144cafaef749e7bb0eaec9.bindPopup(popup_1b6d8317342149a5aec568fad2931de1);
+
+            
+        
+    
+            var circle_marker_85c31a456bfa431c810d8014a587b3ab = L.circleMarker(
+                [12.997490000000028,77.67093000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_a5f5d220ec0d479e8901f3bcbf31da7e = L.popup({maxWidth: '300'});
+
+            
+                var html_430f7b6b0f2d49549e08985ed487fe49 = $('<div id="html_430f7b6b0f2d49549e08985ed487fe49" style="width: 100.0%; height: 100.0%;">A.Narayanapura, Krishnarajapuram</div>')[0];
+                popup_a5f5d220ec0d479e8901f3bcbf31da7e.setContent(html_430f7b6b0f2d49549e08985ed487fe49);
+            
+
+            circle_marker_85c31a456bfa431c810d8014a587b3ab.bindPopup(popup_a5f5d220ec0d479e8901f3bcbf31da7e);
+
+            
+        
+    
+            var circle_marker_4a8c8c9fc7f246caa32d7e5e2004daa9 = L.circleMarker(
+                [12.979018801404825,77.65613753365203],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_cb5e9309781c4c118236ac4f9e4af2b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_638e788d1cca47d58eaa1972763d0c5d = $('<div id="html_638e788d1cca47d58eaa1972763d0c5d" style="width: 100.0%; height: 100.0%;">C.V.Raman Nagar, CV Raman Nagar</div>')[0];
+                popup_cb5e9309781c4c118236ac4f9e4af2b9.setContent(html_638e788d1cca47d58eaa1972763d0c5d);
+            
+
+            circle_marker_4a8c8c9fc7f246caa32d7e5e2004daa9.bindPopup(popup_cb5e9309781c4c118236ac4f9e4af2b9);
+
+            
+        
+    
+            var circle_marker_12f9735b45b34c13a3e1415747cae98d = L.circleMarker(
+                [12.872900000000072,77.55645000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_7f09ad0ca0454238acc18a29a2f6e3bd = L.popup({maxWidth: '300'});
+
+            
+                var html_55f726d32f904aceb6f6bb1364decae8 = $('<div id="html_55f726d32f904aceb6f6bb1364decae8" style="width: 100.0%; height: 100.0%;">Hosathippasandra, CV Raman Nagar</div>')[0];
+                popup_7f09ad0ca0454238acc18a29a2f6e3bd.setContent(html_55f726d32f904aceb6f6bb1364decae8);
+            
+
+            circle_marker_12f9735b45b34c13a3e1415747cae98d.bindPopup(popup_7f09ad0ca0454238acc18a29a2f6e3bd);
+
+            
+        
+    
+            var circle_marker_6d00452eba4040eaad42d52ff974f581 = L.circleMarker(
+                [13.00013000000007,77.62779000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_e14104716eaa4819953b27b806fad35a = L.popup({maxWidth: '300'});
+
+            
+                var html_dbb792c46bf04e5197164ddc25b0be23 = $('<div id="html_dbb792c46bf04e5197164ddc25b0be23" style="width: 100.0%; height: 100.0%;">Maruthiseva Nagar, Sarvagnanagar</div>')[0];
+                popup_e14104716eaa4819953b27b806fad35a.setContent(html_dbb792c46bf04e5197164ddc25b0be23);
+            
+
+            circle_marker_6d00452eba4040eaad42d52ff974f581.bindPopup(popup_e14104716eaa4819953b27b806fad35a);
+
+            
+        
+    
+            var circle_marker_2f2d25f926ec40afb887bdf5c52fba35 = L.circleMarker(
+                [13.001130000000046,77.61731000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_f7ee63c963ea4e9ba4adde41dd8494cf = L.popup({maxWidth: '300'});
+
+            
+                var html_f726d2e095874f2aa2885984a101252b = $('<div id="html_f726d2e095874f2aa2885984a101252b" style="width: 100.0%; height: 100.0%;">S.K.Garden, Pulakeshinagar</div>')[0];
+                popup_f7ee63c963ea4e9ba4adde41dd8494cf.setContent(html_f726d2e095874f2aa2885984a101252b);
+            
+
+            circle_marker_2f2d25f926ec40afb887bdf5c52fba35.bindPopup(popup_f7ee63c963ea4e9ba4adde41dd8494cf);
+
+            
+        
+    
+            var circle_marker_1bb80942710a4c8d90d711c89b0b9feb = L.circleMarker(
+                [12.98720000000003,77.60401000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_d8a0562708c34c5e9bc137d256a5ac11 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8cdd0b351de4d75b01b15da8d71593a = $('<div id="html_e8cdd0b351de4d75b01b15da8d71593a" style="width: 100.0%; height: 100.0%;">Ramaswamy Palya, Shivajinagar</div>')[0];
+                popup_d8a0562708c34c5e9bc137d256a5ac11.setContent(html_e8cdd0b351de4d75b01b15da8d71593a);
+            
+
+            circle_marker_1bb80942710a4c8d90d711c89b0b9feb.bindPopup(popup_d8a0562708c34c5e9bc137d256a5ac11);
+
+            
+        
+    
+            var circle_marker_149f2e4a5219432cb112ae6fe73409c3 = L.circleMarker(
+                [12.994722000000001,77.59702350000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_f21e9aec1b064a879e5177638364255f = L.popup({maxWidth: '300'});
+
+            
+                var html_02d589f5178d44e0b8438fb47c49ff59 = $('<div id="html_02d589f5178d44e0b8438fb47c49ff59" style="width: 100.0%; height: 100.0%;">Jayamahal, Shivajinagar</div>')[0];
+                popup_f21e9aec1b064a879e5177638364255f.setContent(html_02d589f5178d44e0b8438fb47c49ff59);
+            
+
+            circle_marker_149f2e4a5219432cb112ae6fe73409c3.bindPopup(popup_f21e9aec1b064a879e5177638364255f);
+
+            
+        
+    
+            var circle_marker_bbd547b70acc461e933c1f358bd0b1f4 = L.circleMarker(
+                [12.980305707744249,77.5794398207052],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_9b7960c2685f4a1d9f35aa51eff35863 = L.popup({maxWidth: '300'});
+
+            
+                var html_ef1f678512714855aee031d4acd87db9 = $('<div id="html_ef1f678512714855aee031d4acd87db9" style="width: 100.0%; height: 100.0%;">Rajamahal, Malleshwaram</div>')[0];
+                popup_9b7960c2685f4a1d9f35aa51eff35863.setContent(html_ef1f678512714855aee031d4acd87db9);
+            
+
+            circle_marker_bbd547b70acc461e933c1f358bd0b1f4.bindPopup(popup_9b7960c2685f4a1d9f35aa51eff35863);
+
+            
+        
+    
+            var circle_marker_101336f2c1f24af3bcb7a5ab66f87d9c = L.circleMarker(
+                [13.00574000000006,77.56273000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_11c51ad5625441499b5d16f8c00b86c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_927e9ecb37f946e586598acc002f7980 = $('<div id="html_927e9ecb37f946e586598acc002f7980" style="width: 100.0%; height: 100.0%;">Kadumalleshwara, Malleshwaram</div>')[0];
+                popup_11c51ad5625441499b5d16f8c00b86c5.setContent(html_927e9ecb37f946e586598acc002f7980);
+            
+
+            circle_marker_101336f2c1f24af3bcb7a5ab66f87d9c.bindPopup(popup_11c51ad5625441499b5d16f8c00b86c5);
+
+            
+        
+    
+            var circle_marker_a236d911fef34510a4717766a8c6df7d = L.circleMarker(
+                [13.002980521784316,77.56294936372552],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_97a572acc7e2461ead385949ecc64845 = L.popup({maxWidth: '300'});
+
+            
+                var html_ed7e2a07ebca40dbbb9483ca527c246d = $('<div id="html_ed7e2a07ebca40dbbb9483ca527c246d" style="width: 100.0%; height: 100.0%;">Subramanya Nagar, Malleshwaram</div>')[0];
+                popup_97a572acc7e2461ead385949ecc64845.setContent(html_ed7e2a07ebca40dbbb9483ca527c246d);
+            
+
+            circle_marker_a236d911fef34510a4717766a8c6df7d.bindPopup(popup_97a572acc7e2461ead385949ecc64845);
+
+            
+        
+    
+            var circle_marker_9bef0770fdc4477dafc158c3c47c1aaa = L.circleMarker(
+                [13.016350000000045,77.54481000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_aa343e41d1984185ae1f5c151cd5ca4a = L.popup({maxWidth: '300'});
+
+            
+                var html_e1030f8e9f9b4f62af5ae773e66d1de5 = $('<div id="html_e1030f8e9f9b4f62af5ae773e66d1de5" style="width: 100.0%; height: 100.0%;">Nagapura, Mahalakshmi Layout</div>')[0];
+                popup_aa343e41d1984185ae1f5c151cd5ca4a.setContent(html_e1030f8e9f9b4f62af5ae773e66d1de5);
+            
+
+            circle_marker_9bef0770fdc4477dafc158c3c47c1aaa.bindPopup(popup_aa343e41d1984185ae1f5c151cd5ca4a);
+
+            
+        
+    
+            var circle_marker_0f2b0e107a534cc29a5dfee595e98317 = L.circleMarker(
+                [13.008300000000077,77.54340000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_7956dc731d0d4c4596333da8d68d2b5f = L.popup({maxWidth: '300'});
+
+            
+                var html_a0e39b7d6ea140de825311b8b8e25895 = $('<div id="html_a0e39b7d6ea140de825311b8b8e25895" style="width: 100.0%; height: 100.0%;">Mahalakshmipuram, Mahalakshmi Layout</div>')[0];
+                popup_7956dc731d0d4c4596333da8d68d2b5f.setContent(html_a0e39b7d6ea140de825311b8b8e25895);
+            
+
+            circle_marker_0f2b0e107a534cc29a5dfee595e98317.bindPopup(popup_7956dc731d0d4c4596333da8d68d2b5f);
+
+            
+        
+    
+            var circle_marker_7904104d8ab24a148cc05d253a07aeb6 = L.circleMarker(
+                [13.012450000000058,77.51519000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_47d2c769e37d455ca5f0cb89f2821643 = L.popup({maxWidth: '300'});
+
+            
+                var html_f9f8aec4d4ba46f0aec3fa711abffa1c = $('<div id="html_f9f8aec4d4ba46f0aec3fa711abffa1c" style="width: 100.0%; height: 100.0%;">Rajagopala Nagar, Dasarahalli</div>')[0];
+                popup_47d2c769e37d455ca5f0cb89f2821643.setContent(html_f9f8aec4d4ba46f0aec3fa711abffa1c);
+            
+
+            circle_marker_7904104d8ab24a148cc05d253a07aeb6.bindPopup(popup_47d2c769e37d455ca5f0cb89f2821643);
+
+            
+        
+    
+            var circle_marker_d6eefc2198764b1cacf9865ac9beb674 = L.circleMarker(
+                [13.001590000000022,77.50465000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_c9a68f35bdf740fd91bc9707162c8458 = L.popup({maxWidth: '300'});
+
+            
+                var html_65ee3166e5ce4141ad9fba6ab958c5d0 = $('<div id="html_65ee3166e5ce4141ad9fba6ab958c5d0" style="width: 100.0%; height: 100.0%;">Hegganahalli, Dasarahalli</div>')[0];
+                popup_c9a68f35bdf740fd91bc9707162c8458.setContent(html_65ee3166e5ce4141ad9fba6ab958c5d0);
+            
+
+            circle_marker_d6eefc2198764b1cacf9865ac9beb674.bindPopup(popup_c9a68f35bdf740fd91bc9707162c8458);
+
+            
+        
+    
+            var circle_marker_81caaafcdbec4b5e8d4d328501c1d683 = L.circleMarker(
+                [13.029540000000054,77.54022000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_1eb48121c8814f11ab683ece1ab5f50a = L.popup({maxWidth: '300'});
+
+            
+                var html_c936e6276b2c4af0b5e76867cfeff1bb = $('<div id="html_c936e6276b2c4af0b5e76867cfeff1bb" style="width: 100.0%; height: 100.0%;">Herohalli, Yeshwanthpur</div>')[0];
+                popup_1eb48121c8814f11ab683ece1ab5f50a.setContent(html_c936e6276b2c4af0b5e76867cfeff1bb);
+            
+
+            circle_marker_81caaafcdbec4b5e8d4d328501c1d683.bindPopup(popup_1eb48121c8814f11ab683ece1ab5f50a);
+
+            
+        
+    
+            var circle_marker_7208cdf6657c4b908cd7f291995c59d5 = L.circleMarker(
+                [12.977220000000045,77.57566000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0e213877d3874dfcac4e6244eaa88b2b = L.popup({maxWidth: '300'});
+
+            
+                var html_6271ba4267324f5f95ce7db157e50185 = $('<div id="html_6271ba4267324f5f95ce7db157e50185" style="width: 100.0%; height: 100.0%;">Dattathreya Temple, Gandhinagar</div>')[0];
+                popup_0e213877d3874dfcac4e6244eaa88b2b.setContent(html_6271ba4267324f5f95ce7db157e50185);
+            
+
+            circle_marker_7208cdf6657c4b908cd7f291995c59d5.bindPopup(popup_0e213877d3874dfcac4e6244eaa88b2b);
+
+            
+        
+    
+            var circle_marker_0c67db0d7aea436e955054ae495bffeb = L.circleMarker(
+                [12.991460000000075,77.50218000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0729ebd528fc47149c397216bdb28d63 = L.popup({maxWidth: '300'});
+
+            
+                var html_7fd50026c2e44b19b965bbe20b3a2b85 = $('<div id="html_7fd50026c2e44b19b965bbe20b3a2b85" style="width: 100.0%; height: 100.0%;">Hoysala Nagar, CV Raman Nagar</div>')[0];
+                popup_0729ebd528fc47149c397216bdb28d63.setContent(html_7fd50026c2e44b19b965bbe20b3a2b85);
+            
+
+            circle_marker_0c67db0d7aea436e955054ae495bffeb.bindPopup(popup_0729ebd528fc47149c397216bdb28d63);
+
+            
+        
+    
+            var circle_marker_0ec84b73228e4131a9a97f9e1415b4b3 = L.circleMarker(
+                [12.989100000000064,77.70116000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_46dde5c68f4e4492af99407b2562bd34 = L.popup({maxWidth: '300'});
+
+            
+                var html_fdfea2b45ee543dbb620a8b3c2937f48 = $('<div id="html_fdfea2b45ee543dbb620a8b3c2937f48" style="width: 100.0%; height: 100.0%;">Garudacharpalya, Mahadevapura</div>')[0];
+                popup_46dde5c68f4e4492af99407b2562bd34.setContent(html_fdfea2b45ee543dbb620a8b3c2937f48);
+            
+
+            circle_marker_0ec84b73228e4131a9a97f9e1415b4b3.bindPopup(popup_46dde5c68f4e4492af99407b2562bd34);
+
+            
+        
+    
+            var circle_marker_735661f2ce484da2883c7c721b09059b = L.circleMarker(
+                [12.994090000000028,77.66633000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0257ff91dda6477c89263fc8481ff7ed = L.popup({maxWidth: '300'});
+
+            
+                var html_516a391f946240d79c6c050ea0696227 = $('<div id="html_516a391f946240d79c6c050ea0696227" style="width: 100.0%; height: 100.0%;">Kadugudi, Mahadevapura</div>')[0];
+                popup_0257ff91dda6477c89263fc8481ff7ed.setContent(html_516a391f946240d79c6c050ea0696227);
+            
+
+            circle_marker_735661f2ce484da2883c7c721b09059b.bindPopup(popup_0257ff91dda6477c89263fc8481ff7ed);
+
+            
+        
+    
+            var circle_marker_6299c2f6215242bea8a3bcff64770056 = L.circleMarker(
+                [12.980923606171201,77.69403449967668],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_a2d340bace1d413c8d77f388124ecb21 = L.popup({maxWidth: '300'});
+
+            
+                var html_71146b0c0e3e427bb894e33822a34499 = $('<div id="html_71146b0c0e3e427bb894e33822a34499" style="width: 100.0%; height: 100.0%;">Doddanekkundi, Mahadevapura</div>')[0];
+                popup_a2d340bace1d413c8d77f388124ecb21.setContent(html_71146b0c0e3e427bb894e33822a34499);
+            
+
+            circle_marker_6299c2f6215242bea8a3bcff64770056.bindPopup(popup_a2d340bace1d413c8d77f388124ecb21);
+
+            
+        
+    
+            var circle_marker_8b317dcc6bc94b7b9a919f2c27dfa713 = L.circleMarker(
+                [12.966860000000054,77.65630000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_dc9a93bf3f7846af84c5865ffd28a46b = L.popup({maxWidth: '300'});
+
+            
+                var html_644ee2e6f07e41419d5ef7969da9af81 = $('<div id="html_644ee2e6f07e41419d5ef7969da9af81" style="width: 100.0%; height: 100.0%;">Jeevanbhima Nagar, CV Raman Nagar</div>')[0];
+                popup_dc9a93bf3f7846af84c5865ffd28a46b.setContent(html_644ee2e6f07e41419d5ef7969da9af81);
+            
+
+            circle_marker_8b317dcc6bc94b7b9a919f2c27dfa713.bindPopup(popup_dc9a93bf3f7846af84c5865ffd28a46b);
+
+            
+        
+    
+            var circle_marker_feccd237b7774b34aeff605dd0f8e873 = L.circleMarker(
+                [12.957620000000077,77.59694000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_306ca7b9ec854593a305fda185013cdd = L.popup({maxWidth: '300'});
+
+            
+                var html_d36c90309fca441f8c4dd01eb8b5dc6b = $('<div id="html_d36c90309fca441f8c4dd01eb8b5dc6b" style="width: 100.0%; height: 100.0%;">Jogupalya, Shanthinagar</div>')[0];
+                popup_306ca7b9ec854593a305fda185013cdd.setContent(html_d36c90309fca441f8c4dd01eb8b5dc6b);
+            
+
+            circle_marker_feccd237b7774b34aeff605dd0f8e873.bindPopup(popup_306ca7b9ec854593a305fda185013cdd);
+
+            
+        
+    
+            var circle_marker_17123eb05455474da37a79d979b8366f = L.circleMarker(
+                [12.976343999994665,77.614758],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_a8759a002cda4b418b261176e5e86602 = L.popup({maxWidth: '300'});
+
+            
+                var html_ddb8ac5717c1498f87e5fd8f80e649e1 = $('<div id="html_ddb8ac5717c1498f87e5fd8f80e649e1" style="width: 100.0%; height: 100.0%;">Ulsoor, Shivajinagar</div>')[0];
+                popup_a8759a002cda4b418b261176e5e86602.setContent(html_ddb8ac5717c1498f87e5fd8f80e649e1);
+            
+
+            circle_marker_17123eb05455474da37a79d979b8366f.bindPopup(popup_a8759a002cda4b418b261176e5e86602);
+
+            
+        
+    
+            var circle_marker_1effffa572ae4b289eed2eb5bd791e4a = L.circleMarker(
+                [12.989253236947551,77.61203622515099],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_7bacab9517574803971d723c8d75097c = L.popup({maxWidth: '300'});
+
+            
+                var html_91c921f3904046fe974046eb61a1f6b3 = $('<div id="html_91c921f3904046fe974046eb61a1f6b3" style="width: 100.0%; height: 100.0%;">Bharathi Nagar, Shivajinagar</div>')[0];
+                popup_7bacab9517574803971d723c8d75097c.setContent(html_91c921f3904046fe974046eb61a1f6b3);
+            
+
+            circle_marker_1effffa572ae4b289eed2eb5bd791e4a.bindPopup(popup_7bacab9517574803971d723c8d75097c);
+
+            
+        
+    
+            var circle_marker_d02e888aa58042ef93e5490fe87c6cd9 = L.circleMarker(
+                [12.987842351738918,77.5965399648875],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_63252d544a984524a443235ea3946d88 = L.popup({maxWidth: '300'});
+
+            
+                var html_8e814c87a6fb4d3b85d93cc880fa3f30 = $('<div id="html_8e814c87a6fb4d3b85d93cc880fa3f30" style="width: 100.0%; height: 100.0%;">Vasanth Nagar, Shivajinagar</div>')[0];
+                popup_63252d544a984524a443235ea3946d88.setContent(html_8e814c87a6fb4d3b85d93cc880fa3f30);
+            
+
+            circle_marker_d02e888aa58042ef93e5490fe87c6cd9.bindPopup(popup_63252d544a984524a443235ea3946d88);
+
+            
+        
+    
+            var circle_marker_73050151713345f68a405d09315fb84c = L.circleMarker(
+                [12.979130000000055,77.57726000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_5a93512921534ab1bdeade9093f4972c = L.popup({maxWidth: '300'});
+
+            
+                var html_8af4400aa1524d8483f6400865e2373c = $('<div id="html_8af4400aa1524d8483f6400865e2373c" style="width: 100.0%; height: 100.0%;">Gandhi Nagar, Gandhinagar</div>')[0];
+                popup_5a93512921534ab1bdeade9093f4972c.setContent(html_8af4400aa1524d8483f6400865e2373c);
+            
+
+            circle_marker_73050151713345f68a405d09315fb84c.bindPopup(popup_5a93512921534ab1bdeade9093f4972c);
+
+            
+        
+    
+            var circle_marker_a7b21701a9c541129a7b480dec38cd73 = L.circleMarker(
+                [12.978320000000053,77.58090000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_93ec6d5d881c4f068714e68ea8142148 = L.popup({maxWidth: '300'});
+
+            
+                var html_1a2b43668450458d8001d333f0ca66fd = $('<div id="html_1a2b43668450458d8001d333f0ca66fd" style="width: 100.0%; height: 100.0%;">Subhash Nagar, Gandhinagar</div>')[0];
+                popup_93ec6d5d881c4f068714e68ea8142148.setContent(html_1a2b43668450458d8001d333f0ca66fd);
+            
+
+            circle_marker_a7b21701a9c541129a7b480dec38cd73.bindPopup(popup_93ec6d5d881c4f068714e68ea8142148);
+
+            
+        
+    
+            var circle_marker_6ff1ad6494d74a78ab4cfb497dd93464 = L.circleMarker(
+                [13.026430000000062,77.61774000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_d82131b7e5224f90b76001a7e689876b = L.popup({maxWidth: '300'});
+
+            
+                var html_4b3af7c836c94a23987b337c197a8a36 = $('<div id="html_4b3af7c836c94a23987b337c197a8a36" style="width: 100.0%; height: 100.0%;">Okalipuram, Gandhinagar</div>')[0];
+                popup_d82131b7e5224f90b76001a7e689876b.setContent(html_4b3af7c836c94a23987b337c197a8a36);
+            
+
+            circle_marker_6ff1ad6494d74a78ab4cfb497dd93464.bindPopup(popup_d82131b7e5224f90b76001a7e689876b);
+
+            
+        
+    
+            var circle_marker_074ba81baca44c00aa24f5c1532b4d34 = L.circleMarker(
+                [12.987500000000068,77.55466000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_fa51b402c4ed4329bd8d572d4a2a1c80 = L.popup({maxWidth: '300'});
+
+            
+                var html_f181a08756234e04b5d3f7ca0121f7ba = $('<div id="html_f181a08756234e04b5d3f7ca0121f7ba" style="width: 100.0%; height: 100.0%;">Dayananda Nagar, Rajajinagar</div>')[0];
+                popup_fa51b402c4ed4329bd8d572d4a2a1c80.setContent(html_f181a08756234e04b5d3f7ca0121f7ba);
+            
+
+            circle_marker_074ba81baca44c00aa24f5c1532b4d34.bindPopup(popup_fa51b402c4ed4329bd8d572d4a2a1c80);
+
+            
+        
+    
+            var circle_marker_69acd7344bfb4f02bed1c4790c59cc2c = L.circleMarker(
+                [12.992660000000058,77.55838000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_fb7476ea285f43bb9e69c98256fe64aa = L.popup({maxWidth: '300'});
+
+            
+                var html_1f06586ac7a44de4a3ce56cc87dfa001 = $('<div id="html_1f06586ac7a44de4a3ce56cc87dfa001" style="width: 100.0%; height: 100.0%;">Prakash Nagar, Rajajinagar</div>')[0];
+                popup_fb7476ea285f43bb9e69c98256fe64aa.setContent(html_1f06586ac7a44de4a3ce56cc87dfa001);
+            
+
+            circle_marker_69acd7344bfb4f02bed1c4790c59cc2c.bindPopup(popup_fb7476ea285f43bb9e69c98256fe64aa);
+
+            
+        
+    
+            var circle_marker_2f04fed6a1584faf8ba8941bb1d5fd9a = L.circleMarker(
+                [13.005440000000021,77.55693000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_023c6b46178147ef8cfd3fc8d44e6f52 = L.popup({maxWidth: '300'});
+
+            
+                var html_4afc8c6244d94af7af1eab089069fc3c = $('<div id="html_4afc8c6244d94af7af1eab089069fc3c" style="width: 100.0%; height: 100.0%;">Rajaji Nagar, Rajajinagar</div>')[0];
+                popup_023c6b46178147ef8cfd3fc8d44e6f52.setContent(html_4afc8c6244d94af7af1eab089069fc3c);
+            
+
+            circle_marker_2f04fed6a1584faf8ba8941bb1d5fd9a.bindPopup(popup_023c6b46178147ef8cfd3fc8d44e6f52);
+
+            
+        
+    
+            var circle_marker_9482f6614e4f4b4bbba5b79c24dcfbb8 = L.circleMarker(
+                [12.987270000000024,77.53994000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_1fec7fc409eb4ca48011ed331bb3532f = L.popup({maxWidth: '300'});
+
+            
+                var html_23e1b1dc92c947158b5a08d7dc283075 = $('<div id="html_23e1b1dc92c947158b5a08d7dc283075" style="width: 100.0%; height: 100.0%;">Basaveshwara Nagar, Rajajinagar</div>')[0];
+                popup_1fec7fc409eb4ca48011ed331bb3532f.setContent(html_23e1b1dc92c947158b5a08d7dc283075);
+            
+
+            circle_marker_9482f6614e4f4b4bbba5b79c24dcfbb8.bindPopup(popup_1fec7fc409eb4ca48011ed331bb3532f);
+
+            
+        
+    
+            var circle_marker_2f6dde6217bf45e5a6714f0563706544 = L.circleMarker(
+                [12.986990000000048,77.52484000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_11db2dd03aba4a51abb8f0d9988ce411 = L.popup({maxWidth: '300'});
+
+            
+                var html_ece0f14ce17844f68be728d776204b28 = $('<div id="html_ece0f14ce17844f68be728d776204b28" style="width: 100.0%; height: 100.0%;">Kamakshipalya, Rajajinagar</div>')[0];
+                popup_11db2dd03aba4a51abb8f0d9988ce411.setContent(html_ece0f14ce17844f68be728d776204b28);
+            
+
+            circle_marker_2f6dde6217bf45e5a6714f0563706544.bindPopup(popup_11db2dd03aba4a51abb8f0d9988ce411);
+
+            
+        
+    
+            var circle_marker_29dc4898ddf7440ebdbf78d0abd8bbe7 = L.circleMarker(
+                [12.981030000000032,77.52497000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_4c38a0f6525b4dfc99ac83e4fa2980fb = L.popup({maxWidth: '300'});
+
+            
+                var html_07d288f174f04f70a7f71c3290729231 = $('<div id="html_07d288f174f04f70a7f71c3290729231" style="width: 100.0%; height: 100.0%;">Kaveripura, Govindarajnagara</div>')[0];
+                popup_4c38a0f6525b4dfc99ac83e4fa2980fb.setContent(html_07d288f174f04f70a7f71c3290729231);
+            
+
+            circle_marker_29dc4898ddf7440ebdbf78d0abd8bbe7.bindPopup(popup_4c38a0f6525b4dfc99ac83e4fa2980fb);
+
+            
+        
+    
+            var circle_marker_5cd2366d9a334ac095d4a8a192516815 = L.circleMarker(
+                [12.978120000000047,77.53470000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_cc3b7775486c473baa5bc6789303cc66 = L.popup({maxWidth: '300'});
+
+            
+                var html_5b87bc41a4cd4a31be7f4baebe8c4d4f = $('<div id="html_5b87bc41a4cd4a31be7f4baebe8c4d4f" style="width: 100.0%; height: 100.0%;">Govindraja Nagara, Govindarajnagara</div>')[0];
+                popup_cc3b7775486c473baa5bc6789303cc66.setContent(html_5b87bc41a4cd4a31be7f4baebe8c4d4f);
+            
+
+            circle_marker_5cd2366d9a334ac095d4a8a192516815.bindPopup(popup_cc3b7775486c473baa5bc6789303cc66);
+
+            
+        
+    
+            var circle_marker_3fc5829a9d4540079de235aeae0dabfe = L.circleMarker(
+                [12.981200000000058,77.54284000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_a7ba4cf4450347bea8a93597f5b0f260 = L.popup({maxWidth: '300'});
+
+            
+                var html_858ad2425aee4b6d954aa81aa2b8f5cd = $('<div id="html_858ad2425aee4b6d954aa81aa2b8f5cd" style="width: 100.0%; height: 100.0%;">Agrahara Dasarahalli, Govindarajnagara</div>')[0];
+                popup_a7ba4cf4450347bea8a93597f5b0f260.setContent(html_858ad2425aee4b6d954aa81aa2b8f5cd);
+            
+
+            circle_marker_3fc5829a9d4540079de235aeae0dabfe.bindPopup(popup_a7ba4cf4450347bea8a93597f5b0f260);
+
+            
+        
+    
+            var circle_marker_e571be52895d4828a0220c9a98e1657d = L.circleMarker(
+                [13.033530000000042,77.67479000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_a2594ff686424556b5c076a2e8caa2e0 = L.popup({maxWidth: '300'});
+
+            
+                var html_e26cf670ef3c441d8e62f16c73c598d6 = $('<div id="html_e26cf670ef3c441d8e62f16c73c598d6" style="width: 100.0%; height: 100.0%;">Dr.Rajkumar Ward, Govindarajnagara</div>')[0];
+                popup_a2594ff686424556b5c076a2e8caa2e0.setContent(html_e26cf670ef3c441d8e62f16c73c598d6);
+            
+
+            circle_marker_e571be52895d4828a0220c9a98e1657d.bindPopup(popup_a2594ff686424556b5c076a2e8caa2e0);
+
+            
+        
+    
+            var circle_marker_fe5879347274401987b651119900bc18 = L.circleMarker(
+                [12.990650000000073,77.54853000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_8153290092ae4a439586a1b7bad89636 = L.popup({maxWidth: '300'});
+
+            
+                var html_ee656baaf4c0437b8e699fe4bbeb17a5 = $('<div id="html_ee656baaf4c0437b8e699fe4bbeb17a5" style="width: 100.0%; height: 100.0%;">Shiva Nagar, Rajajinagar</div>')[0];
+                popup_8153290092ae4a439586a1b7bad89636.setContent(html_ee656baaf4c0437b8e699fe4bbeb17a5);
+            
+
+            circle_marker_fe5879347274401987b651119900bc18.bindPopup(popup_8153290092ae4a439586a1b7bad89636);
+
+            
+        
+    
+            var circle_marker_50cb3a8d38424b6b819d53d0f241e462 = L.circleMarker(
+                [12.98622000000006,77.55608000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0c7ef13d41664a80bc12ffaa7e2fe477 = L.popup({maxWidth: '300'});
+
+            
+                var html_23ab2a535e9d4de2ab64c963249317c0 = $('<div id="html_23ab2a535e9d4de2ab64c963249317c0" style="width: 100.0%; height: 100.0%;">Sri Rammandira, Rajajinagar</div>')[0];
+                popup_0c7ef13d41664a80bc12ffaa7e2fe477.setContent(html_23ab2a535e9d4de2ab64c963249317c0);
+            
+
+            circle_marker_50cb3a8d38424b6b819d53d0f241e462.bindPopup(popup_0c7ef13d41664a80bc12ffaa7e2fe477);
+
+            
+        
+    
+            var circle_marker_ac297c93cc254032b9948e544b727935 = L.circleMarker(
+                [12.977180000000033,77.58975000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_93f3949c25dc49d598ac59f0319d9e10 = L.popup({maxWidth: '300'});
+
+            
+                var html_0ca2b93c9ffd450c8d97a1d58679c759 = $('<div id="html_0ca2b93c9ffd450c8d97a1d58679c759" style="width: 100.0%; height: 100.0%;">Sampangiram Nagar, Shivajinagar</div>')[0];
+                popup_93f3949c25dc49d598ac59f0319d9e10.setContent(html_0ca2b93c9ffd450c8d97a1d58679c759);
+            
+
+            circle_marker_ac297c93cc254032b9948e544b727935.bindPopup(popup_93f3949c25dc49d598ac59f0319d9e10);
+
+            
+        
+    
+            var circle_marker_3540322956994701b5b31e3d4b0d3f0c = L.circleMarker(
+                [12.964290000000062,77.60295000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_f47afe74c51844ffa47c21f81c7404d3 = L.popup({maxWidth: '300'});
+
+            
+                var html_38c1d6a091cd44ac8407c0d40719dd6f = $('<div id="html_38c1d6a091cd44ac8407c0d40719dd6f" style="width: 100.0%; height: 100.0%;">Shanthala Nagar, Shanthinagar</div>')[0];
+                popup_f47afe74c51844ffa47c21f81c7404d3.setContent(html_38c1d6a091cd44ac8407c0d40719dd6f);
+            
+
+            circle_marker_3540322956994701b5b31e3d4b0d3f0c.bindPopup(popup_f47afe74c51844ffa47c21f81c7404d3);
+
+            
+        
+    
+            var circle_marker_e0aa602fa545494b8ff37a0f90f0643c = L.circleMarker(
+                [12.956900000000076,77.66056000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_9e998ee1be24463d825607276774f571 = L.popup({maxWidth: '300'});
+
+            
+                var html_40397f74dc71473da34a3fd841e0b533 = $('<div id="html_40397f74dc71473da34a3fd841e0b533" style="width: 100.0%; height: 100.0%;">Konena Agrahara, CV Raman Nagar</div>')[0];
+                popup_9e998ee1be24463d825607276774f571.setContent(html_40397f74dc71473da34a3fd841e0b533);
+            
+
+            circle_marker_e0aa602fa545494b8ff37a0f90f0643c.bindPopup(popup_9e998ee1be24463d825607276774f571);
+
+            
+        
+    
+            var circle_marker_3df6f19cadb346799e7a2b4a9bab0acf = L.circleMarker(
+                [12.942696877315548,77.6024410968608],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_4dbcc4ef9ae349288d2d880593c172b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_949e9a83a46247fdb39681e6a3490e56 = $('<div id="html_949e9a83a46247fdb39681e6a3490e56" style="width: 100.0%; height: 100.0%;">Neelasandra, Shanthinagar</div>')[0];
+                popup_4dbcc4ef9ae349288d2d880593c172b6.setContent(html_949e9a83a46247fdb39681e6a3490e56);
+            
+
+            circle_marker_3df6f19cadb346799e7a2b4a9bab0acf.bindPopup(popup_4dbcc4ef9ae349288d2d880593c172b6);
+
+            
+        
+    
+            var circle_marker_9c6cd70efd274a12be5db0e102fbbf3e = L.circleMarker(
+                [12.970150000000046,77.57589000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_a8f8104303b244d4b6b4b88d8e1f0714 = L.popup({maxWidth: '300'});
+
+            
+                var html_e81e9faabdd94dc89ca05adb9ff7d26d = $('<div id="html_e81e9faabdd94dc89ca05adb9ff7d26d" style="width: 100.0%; height: 100.0%;">Sudam Nagar, Chickpet</div>')[0];
+                popup_a8f8104303b244d4b6b4b88d8e1f0714.setContent(html_e81e9faabdd94dc89ca05adb9ff7d26d);
+            
+
+            circle_marker_9c6cd70efd274a12be5db0e102fbbf3e.bindPopup(popup_a8f8104303b244d4b6b4b88d8e1f0714);
+
+            
+        
+    
+            var circle_marker_c1d5a61b01484156b379a6cc1077b2ae = L.circleMarker(
+                [12.97207000000003,77.57935000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_29d6d5e0beba4518925e4f9070a69eee = L.popup({maxWidth: '300'});
+
+            
+                var html_909e15b5402d408a9b979eef877c0580 = $('<div id="html_909e15b5402d408a9b979eef877c0580" style="width: 100.0%; height: 100.0%;">Dharmarayaswamy Temple Ward, Chickpet</div>')[0];
+                popup_29d6d5e0beba4518925e4f9070a69eee.setContent(html_909e15b5402d408a9b979eef877c0580);
+            
+
+            circle_marker_c1d5a61b01484156b379a6cc1077b2ae.bindPopup(popup_29d6d5e0beba4518925e4f9070a69eee);
+
+            
+        
+    
+            var circle_marker_feccf9d8d5fd4e1991a0a9b53bfc511a = L.circleMarker(
+                [12.969380000000058,77.55565000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_6b11b5f73d9b46aa8500fe2c41c1d5ad = L.popup({maxWidth: '300'});
+
+            
+                var html_7ce7db687f9e43a6863cd7f341291317 = $('<div id="html_7ce7db687f9e43a6863cd7f341291317" style="width: 100.0%; height: 100.0%;">Kempapura Agrahara, Vijayanagar</div>')[0];
+                popup_6b11b5f73d9b46aa8500fe2c41c1d5ad.setContent(html_7ce7db687f9e43a6863cd7f341291317);
+            
+
+            circle_marker_feccf9d8d5fd4e1991a0a9b53bfc511a.bindPopup(popup_6b11b5f73d9b46aa8500fe2c41c1d5ad);
+
+            
+        
+    
+            var circle_marker_fd871e42908644a3be19953bfeb302b2 = L.circleMarker(
+                [13.076000000000022,77.65238000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_3b947339a8a444e093dfe674e6e258f1 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ffad5c8739a49b591ed489b39dfdf11 = $('<div id="html_5ffad5c8739a49b591ed489b39dfdf11" style="width: 100.0%; height: 100.0%;">Vijay Nagar, Vijayanagar</div>')[0];
+                popup_3b947339a8a444e093dfe674e6e258f1.setContent(html_5ffad5c8739a49b591ed489b39dfdf11);
+            
+
+            circle_marker_fd871e42908644a3be19953bfeb302b2.bindPopup(popup_3b947339a8a444e093dfe674e6e258f1);
+
+            
+        
+    
+            var circle_marker_b40f109c7f364592b314f7672491383f = L.circleMarker(
+                [12.969280000000026,77.53675000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_f53eead44f604fb29a82e11919aad48b = L.popup({maxWidth: '300'});
+
+            
+                var html_d065169cad3d45a5ab4273b84342534d = $('<div id="html_d065169cad3d45a5ab4273b84342534d" style="width: 100.0%; height: 100.0%;">Hosahalli, Vijayanagar</div>')[0];
+                popup_f53eead44f604fb29a82e11919aad48b.setContent(html_d065169cad3d45a5ab4273b84342534d);
+            
+
+            circle_marker_b40f109c7f364592b314f7672491383f.bindPopup(popup_f53eead44f604fb29a82e11919aad48b);
+
+            
+        
+    
+            var circle_marker_d9f3912b45964353bed60a77db638232 = L.circleMarker(
+                [12.96951000000007,77.53077000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_8e1669f551ab4463aee6c8fd97460176 = L.popup({maxWidth: '300'});
+
+            
+                var html_aab585b3ec5e4b77925cafe15507273e = $('<div id="html_aab585b3ec5e4b77925cafe15507273e" style="width: 100.0%; height: 100.0%;">Marenahalli, Govindarajnagara</div>')[0];
+                popup_8e1669f551ab4463aee6c8fd97460176.setContent(html_aab585b3ec5e4b77925cafe15507273e);
+            
+
+            circle_marker_d9f3912b45964353bed60a77db638232.bindPopup(popup_8e1669f551ab4463aee6c8fd97460176);
+
+            
+        
+    
+            var circle_marker_26e28c6e15e845ee8937d710879b37eb = L.circleMarker(
+                [11.333110000000033,77.72232000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0ad584365da64216a112705e7a66dff4 = L.popup({maxWidth: '300'});
+
+            
+                var html_76a2dd7fe0e446d4b09f47687cfdb1dd = $('<div id="html_76a2dd7fe0e446d4b09f47687cfdb1dd" style="width: 100.0%; height: 100.0%;">Maruthi Mandira Ward, Govindarajnagara</div>')[0];
+                popup_0ad584365da64216a112705e7a66dff4.setContent(html_76a2dd7fe0e446d4b09f47687cfdb1dd);
+            
+
+            circle_marker_26e28c6e15e845ee8937d710879b37eb.bindPopup(popup_0ad584365da64216a112705e7a66dff4);
+
+            
+        
+    
+            var circle_marker_868480e40ab645d79af70d3418498d98 = L.circleMarker(
+                [12.97180000000003,77.52695000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_026c437ab8e14ad6b4e37b306e425a1c = L.popup({maxWidth: '300'});
+
+            
+                var html_b6a163082d4540f29da26fb9157f6a09 = $('<div id="html_b6a163082d4540f29da26fb9157f6a09" style="width: 100.0%; height: 100.0%;">Moodalapalya, Govindarajnagara</div>')[0];
+                popup_026c437ab8e14ad6b4e37b306e425a1c.setContent(html_b6a163082d4540f29da26fb9157f6a09);
+            
+
+            circle_marker_868480e40ab645d79af70d3418498d98.bindPopup(popup_026c437ab8e14ad6b4e37b306e425a1c);
+
+            
+        
+    
+            var circle_marker_5ef8bfed3fec48258722503c164f8896 = L.circleMarker(
+                [12.9757037299356,77.53911797070853],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_40d09d0f206e4cb09fe60fe0e5b12316 = L.popup({maxWidth: '300'});
+
+            
+                var html_38c667a34ac04b4b8b8749f0a548241f = $('<div id="html_38c667a34ac04b4b8b8749f0a548241f" style="width: 100.0%; height: 100.0%;">Nagarabhavi, Govindarajnagara</div>')[0];
+                popup_40d09d0f206e4cb09fe60fe0e5b12316.setContent(html_38c667a34ac04b4b8b8749f0a548241f);
+            
+
+            circle_marker_5ef8bfed3fec48258722503c164f8896.bindPopup(popup_40d09d0f206e4cb09fe60fe0e5b12316);
+
+            
+        
+    
+            var circle_marker_c79cec69ece74a66b585f5de56045b30 = L.circleMarker(
+                [12.792100000000062,77.47801000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0ab9140770bd4fedbe4ff3104731cf74 = L.popup({maxWidth: '300'});
+
+            
+                var html_bdca55ab85bc4ffca94212998d9c49d9 = $('<div id="html_bdca55ab85bc4ffca94212998d9c49d9" style="width: 100.0%; height: 100.0%;">Nayandanahalli, Govindarajnagara</div>')[0];
+                popup_0ab9140770bd4fedbe4ff3104731cf74.setContent(html_bdca55ab85bc4ffca94212998d9c49d9);
+            
+
+            circle_marker_c79cec69ece74a66b585f5de56045b30.bindPopup(popup_0ab9140770bd4fedbe4ff3104731cf74);
+
+            
+        
+    
+            var circle_marker_7b156b968ec443ca9555812532a06f82 = L.circleMarker(
+                [13.005486000000001,77.59422900000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_af0d0a1c125343f7b413cb34ea59f1c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f45e44c2b8a421a8bce53522f09a18e = $('<div id="html_3f45e44c2b8a421a8bce53522f09a18e" style="width: 100.0%; height: 100.0%;">Hampi Nagar, Vijayanagar</div>')[0];
+                popup_af0d0a1c125343f7b413cb34ea59f1c5.setContent(html_3f45e44c2b8a421a8bce53522f09a18e);
+            
+
+            circle_marker_7b156b968ec443ca9555812532a06f82.bindPopup(popup_af0d0a1c125343f7b413cb34ea59f1c5);
+
+            
+        
+    
+            var circle_marker_4263f1b9ee5f4f5c800fd2bb982e0b10 = L.circleMarker(
+                [13.005750446852085,77.58160664141036],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_5e6e12f8a8524cc181bb52d65a9d7c35 = L.popup({maxWidth: '300'});
+
+            
+                var html_535df9672b1848fe83e5a4b969df726a = $('<div id="html_535df9672b1848fe83e5a4b969df726a" style="width: 100.0%; height: 100.0%;">Bapuji Nagar, Vijayanagar</div>')[0];
+                popup_5e6e12f8a8524cc181bb52d65a9d7c35.setContent(html_535df9672b1848fe83e5a4b969df726a);
+            
+
+            circle_marker_4263f1b9ee5f4f5c800fd2bb982e0b10.bindPopup(popup_5e6e12f8a8524cc181bb52d65a9d7c35);
+
+            
+        
+    
+            var circle_marker_4c68bfe848634dc9861a7faeb6f0ad05 = L.circleMarker(
+                [12.964060000000075,77.55119000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_dcd67061b00f41e282b5423922d607fb = L.popup({maxWidth: '300'});
+
+            
+                var html_46de4c6610fb457087a970e0b71b106f = $('<div id="html_46de4c6610fb457087a970e0b71b106f" style="width: 100.0%; height: 100.0%;">Padarayanapura, Chamrajpet</div>')[0];
+                popup_dcd67061b00f41e282b5423922d607fb.setContent(html_46de4c6610fb457087a970e0b71b106f);
+            
+
+            circle_marker_4c68bfe848634dc9861a7faeb6f0ad05.bindPopup(popup_dcd67061b00f41e282b5423922d607fb);
+
+            
+        
+    
+            var circle_marker_27087ab9ef2b4563baea2cf604c0fba0 = L.circleMarker(
+                [12.957310000000064,77.56005000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_82023946f6454f24bc3f55ee21ce6f0e = L.popup({maxWidth: '300'});
+
+            
+                var html_c68c11a5b833426fa16f900c06f01603 = $('<div id="html_c68c11a5b833426fa16f900c06f01603" style="width: 100.0%; height: 100.0%;">Jagareevanram Nagar, Chamrajpet</div>')[0];
+                popup_82023946f6454f24bc3f55ee21ce6f0e.setContent(html_c68c11a5b833426fa16f900c06f01603);
+            
+
+            circle_marker_27087ab9ef2b4563baea2cf604c0fba0.bindPopup(popup_82023946f6454f24bc3f55ee21ce6f0e);
+
+            
+        
+    
+            var circle_marker_cccca94a81864f35acc24ac7006ecf71 = L.circleMarker(
+                [12.96434000000005,77.55786000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_9d9a94feecd14130915a6bb88712865d = L.popup({maxWidth: '300'});
+
+            
+                var html_a4d422d06e9347b8b83fee0f74be44bd = $('<div id="html_a4d422d06e9347b8b83fee0f74be44bd" style="width: 100.0%; height: 100.0%;">Rayapuram, Chamrajpet</div>')[0];
+                popup_9d9a94feecd14130915a6bb88712865d.setContent(html_a4d422d06e9347b8b83fee0f74be44bd);
+            
+
+            circle_marker_cccca94a81864f35acc24ac7006ecf71.bindPopup(popup_9d9a94feecd14130915a6bb88712865d);
+
+            
+        
+    
+            var circle_marker_91a73515f4dd41d6b2909e08b997031d = L.circleMarker(
+                [12.964530000000025,77.56400000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_b35fb21dc9854b998b0b0f36703e37a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d006322cb3540d88a055c9758f1147b = $('<div id="html_5d006322cb3540d88a055c9758f1147b" style="width: 100.0%; height: 100.0%;">Chalavadipalya, Chamrajpet</div>')[0];
+                popup_b35fb21dc9854b998b0b0f36703e37a4.setContent(html_5d006322cb3540d88a055c9758f1147b);
+            
+
+            circle_marker_91a73515f4dd41d6b2909e08b997031d.bindPopup(popup_b35fb21dc9854b998b0b0f36703e37a4);
+
+            
+        
+    
+            var circle_marker_a86e37d8ca67416bb7c8042a0644be54 = L.circleMarker(
+                [12.958706703387499,77.57414571687657],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_61e83e35e78545f888155afbc250d863 = L.popup({maxWidth: '300'});
+
+            
+                var html_3982b513b8cb4116b3fc2a8e311f4dec = $('<div id="html_3982b513b8cb4116b3fc2a8e311f4dec" style="width: 100.0%; height: 100.0%;">K.R.Market, Chamrajpet</div>')[0];
+                popup_61e83e35e78545f888155afbc250d863.setContent(html_3982b513b8cb4116b3fc2a8e311f4dec);
+            
+
+            circle_marker_a86e37d8ca67416bb7c8042a0644be54.bindPopup(popup_61e83e35e78545f888155afbc250d863);
+
+            
+        
+    
+            var circle_marker_25a7e47512d545ceb77f170397ec1b28 = L.circleMarker(
+                [12.959700296061198,77.57131179631511],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_e3ff85550d0646238a160e2e36f781ed = L.popup({maxWidth: '300'});
+
+            
+                var html_5645b9708074454e99e4893ee5391827 = $('<div id="html_5645b9708074454e99e4893ee5391827" style="width: 100.0%; height: 100.0%;">Chamrajpet, Chamrajpet</div>')[0];
+                popup_e3ff85550d0646238a160e2e36f781ed.setContent(html_5645b9708074454e99e4893ee5391827);
+            
+
+            circle_marker_25a7e47512d545ceb77f170397ec1b28.bindPopup(popup_e3ff85550d0646238a160e2e36f781ed);
+
+            
+        
+    
+            var circle_marker_17a88a8e9cfd4eefa8256ea62856bfeb = L.circleMarker(
+                [12.957250000000045,77.55621000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_00b9f95d9b8044658c7972a6ae883296 = L.popup({maxWidth: '300'});
+
+            
+                var html_d087009df7814eb98064e5acd5433c24 = $('<div id="html_d087009df7814eb98064e5acd5433c24" style="width: 100.0%; height: 100.0%;">Azad Nagar, Chamrajpet</div>')[0];
+                popup_00b9f95d9b8044658c7972a6ae883296.setContent(html_d087009df7814eb98064e5acd5433c24);
+            
+
+            circle_marker_17a88a8e9cfd4eefa8256ea62856bfeb.bindPopup(popup_00b9f95d9b8044658c7972a6ae883296);
+
+            
+        
+    
+            var circle_marker_9893bb46e31c4e87b29d163b6331334d = L.circleMarker(
+                [12.944250000000068,77.56721000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_3bd9207f7f0c4a0385cb8e9611de6b69 = L.popup({maxWidth: '300'});
+
+            
+                var html_30a584baaabb46a6a6730b8c15ae25ce = $('<div id="html_30a584baaabb46a6a6730b8c15ae25ce" style="width: 100.0%; height: 100.0%;">Sunkenahalli, Chickpet</div>')[0];
+                popup_3bd9207f7f0c4a0385cb8e9611de6b69.setContent(html_30a584baaabb46a6a6730b8c15ae25ce);
+            
+
+            circle_marker_9893bb46e31c4e87b29d163b6331334d.bindPopup(popup_3bd9207f7f0c4a0385cb8e9611de6b69);
+
+            
+        
+    
+            var circle_marker_12fe0d8fba6344f9b2166c0a77c591ed = L.circleMarker(
+                [12.948640000000069,77.57367000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_03ddb4aacde643bd862f542be1d5bcc2 = L.popup({maxWidth: '300'});
+
+            
+                var html_3b614e625d3e41a5b763e3ebf8874606 = $('<div id="html_3b614e625d3e41a5b763e3ebf8874606" style="width: 100.0%; height: 100.0%;">Visvesvarapuram, Chickpet</div>')[0];
+                popup_03ddb4aacde643bd862f542be1d5bcc2.setContent(html_3b614e625d3e41a5b763e3ebf8874606);
+            
+
+            circle_marker_12fe0d8fba6344f9b2166c0a77c591ed.bindPopup(popup_03ddb4aacde643bd862f542be1d5bcc2);
+
+            
+        
+    
+            var circle_marker_df24ebd81fa346f89091e81b32c1a141 = L.circleMarker(
+                [12.95613000000003,77.73196000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_6dcebe3e66af4262aefb3cedc8d6ee37 = L.popup({maxWidth: '300'});
+
+            
+                var html_6fd39157564844f29b2862d2637665ac = $('<div id="html_6fd39157564844f29b2862d2637665ac" style="width: 100.0%; height: 100.0%;">Siddapura, Chickpet</div>')[0];
+                popup_6dcebe3e66af4262aefb3cedc8d6ee37.setContent(html_6fd39157564844f29b2862d2637665ac);
+            
+
+            circle_marker_df24ebd81fa346f89091e81b32c1a141.bindPopup(popup_6dcebe3e66af4262aefb3cedc8d6ee37);
+
+            
+        
+    
+            var circle_marker_0c8f250f952a492792cea3352315f46a = L.circleMarker(
+                [12.949940000000026,77.59493000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_bb0bcfed4cbc4b05b8eebd9e7d0df7fd = L.popup({maxWidth: '300'});
+
+            
+                var html_35b14fe9b81d4950a6b43e0702e299c9 = $('<div id="html_35b14fe9b81d4950a6b43e0702e299c9" style="width: 100.0%; height: 100.0%;">Hombegowda Nagar, Chickpet</div>')[0];
+                popup_bb0bcfed4cbc4b05b8eebd9e7d0df7fd.setContent(html_35b14fe9b81d4950a6b43e0702e299c9);
+            
+
+            circle_marker_0c8f250f952a492792cea3352315f46a.bindPopup(popup_bb0bcfed4cbc4b05b8eebd9e7d0df7fd);
+
+            
+        
+    
+            var circle_marker_3f79f04d7a744ff1b3b68245e3a6c490 = L.circleMarker(
+                [12.923755191014802,77.63997753772276],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_f630f820a0324258800b6e09b2722a43 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac9eba7b61b34edaaa3bb5ab33914cb6 = $('<div id="html_ac9eba7b61b34edaaa3bb5ab33914cb6" style="width: 100.0%; height: 100.0%;">Lakkasandra, B.T.M Layout</div>')[0];
+                popup_f630f820a0324258800b6e09b2722a43.setContent(html_ac9eba7b61b34edaaa3bb5ab33914cb6);
+            
+
+            circle_marker_3f79f04d7a744ff1b3b68245e3a6c490.bindPopup(popup_f630f820a0324258800b6e09b2722a43);
+
+            
+        
+    
+            var circle_marker_aafc415ea21d47df8fc8918957b07666 = L.circleMarker(
+                [13.042280000000062,77.56431000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0fea82b7191049bab332a82aef8f15eb = L.popup({maxWidth: '300'});
+
+            
+                var html_ee45c75c45364f1e9657c81102af7ac2 = $('<div id="html_ee45c75c45364f1e9657c81102af7ac2" style="width: 100.0%; height: 100.0%;">Adugodi, B.T.M Layout</div>')[0];
+                popup_0fea82b7191049bab332a82aef8f15eb.setContent(html_ee45c75c45364f1e9657c81102af7ac2);
+            
+
+            circle_marker_aafc415ea21d47df8fc8918957b07666.bindPopup(popup_0fea82b7191049bab332a82aef8f15eb);
+
+            
+        
+    
+            var circle_marker_1a31763651d5485d8645673a795add81 = L.circleMarker(
+                [12.938378253548912,77.62877743229993],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_6154f504ff5f430188fc53a72e22ae95 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb1a93aeab5140cf951ae381d83b17d3 = $('<div id="html_cb1a93aeab5140cf951ae381d83b17d3" style="width: 100.0%; height: 100.0%;">Ejipura, B.T.M Layout</div>')[0];
+                popup_6154f504ff5f430188fc53a72e22ae95.setContent(html_cb1a93aeab5140cf951ae381d83b17d3);
+            
+
+            circle_marker_1a31763651d5485d8645673a795add81.bindPopup(popup_6154f504ff5f430188fc53a72e22ae95);
+
+            
+        
+    
+            var circle_marker_d2f7ed0172d64bca84a0ffa4135ddd2c = L.circleMarker(
+                [12.930780000000027,77.60541000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_ac646243fcad4fea9f6f1e820194ba92 = L.popup({maxWidth: '300'});
+
+            
+                var html_da3ca6f301e44717859319fb38c9e3c9 = $('<div id="html_da3ca6f301e44717859319fb38c9e3c9" style="width: 100.0%; height: 100.0%;">Sudduguntepalya, B.T.M Layout</div>')[0];
+                popup_ac646243fcad4fea9f6f1e820194ba92.setContent(html_da3ca6f301e44717859319fb38c9e3c9);
+            
+
+            circle_marker_d2f7ed0172d64bca84a0ffa4135ddd2c.bindPopup(popup_ac646243fcad4fea9f6f1e820194ba92);
+
+            
+        
+    
+            var circle_marker_b619783690644f44a66e21303f27eec8 = L.circleMarker(
+                [12.938980000000072,77.57137000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_94547d3751344c9f8f107e1cd9b12711 = L.popup({maxWidth: '300'});
+
+            
+                var html_bc1bfc7d0a1c4fd0943668f35ae39644 = $('<div id="html_bc1bfc7d0a1c4fd0943668f35ae39644" style="width: 100.0%; height: 100.0%;">Basavanagudi, Basavanagudi</div>')[0];
+                popup_94547d3751344c9f8f107e1cd9b12711.setContent(html_bc1bfc7d0a1c4fd0943668f35ae39644);
+            
+
+            circle_marker_b619783690644f44a66e21303f27eec8.bindPopup(popup_94547d3751344c9f8f107e1cd9b12711);
+
+            
+        
+    
+            var circle_marker_bd2d49fea3a34c65a9ccd7bd7ea3d027 = L.circleMarker(
+                [13.947240000000022,75.57467000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_f165ef0fbf854d40876483828a4cc3c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_7ed7dc48df014a92ba2dc2929deac3ff = $('<div id="html_7ed7dc48df014a92ba2dc2929deac3ff" style="width: 100.0%; height: 100.0%;">Hanumantha Nagar, Basavanagudi</div>')[0];
+                popup_f165ef0fbf854d40876483828a4cc3c3.setContent(html_7ed7dc48df014a92ba2dc2929deac3ff);
+            
+
+            circle_marker_bd2d49fea3a34c65a9ccd7bd7ea3d027.bindPopup(popup_f165ef0fbf854d40876483828a4cc3c3);
+
+            
+        
+    
+            var circle_marker_9cdc9de4cc924c68971ac3af660ba344 = L.circleMarker(
+                [12.93598079156328,77.57768781196262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_5c284c5c05ab475b907da534f1985d4f = L.popup({maxWidth: '300'});
+
+            
+                var html_1aa19e08e8cb4fdfae82ec82ece768a7 = $('<div id="html_1aa19e08e8cb4fdfae82ec82ece768a7" style="width: 100.0%; height: 100.0%;">Sri Nagar, Basavanagudi</div>')[0];
+                popup_5c284c5c05ab475b907da534f1985d4f.setContent(html_1aa19e08e8cb4fdfae82ec82ece768a7);
+            
+
+            circle_marker_9cdc9de4cc924c68971ac3af660ba344.bindPopup(popup_5c284c5c05ab475b907da534f1985d4f);
+
+            
+        
+    
+            var circle_marker_debffed7fa484fdebe170afac2ab3326 = L.circleMarker(
+                [12.998637859282145,77.58221798112986],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_896406a7b3ba43809401304f39ca2390 = L.popup({maxWidth: '300'});
+
+            
+                var html_539da2039e604debaf34182341b5b689 = $('<div id="html_539da2039e604debaf34182341b5b689" style="width: 100.0%; height: 100.0%;">Gali Anjaneya Swamy Temple Ward, Vijayanagar</div>')[0];
+                popup_896406a7b3ba43809401304f39ca2390.setContent(html_539da2039e604debaf34182341b5b689);
+            
+
+            circle_marker_debffed7fa484fdebe170afac2ab3326.bindPopup(popup_896406a7b3ba43809401304f39ca2390);
+
+            
+        
+    
+            var circle_marker_4a0e258a204f4f7aa37286ec24278759 = L.circleMarker(
+                [12.943444411045082,77.54514118220902],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_083cf60a7b884be09666705ec4de129a = L.popup({maxWidth: '300'});
+
+            
+                var html_a6cdafe58f9d48f685916d8bcbaa3993 = $('<div id="html_a6cdafe58f9d48f685916d8bcbaa3993" style="width: 100.0%; height: 100.0%;">Deepanjali Nagar, Vijayanagar</div>')[0];
+                popup_083cf60a7b884be09666705ec4de129a.setContent(html_a6cdafe58f9d48f685916d8bcbaa3993);
+            
+
+            circle_marker_4a0e258a204f4f7aa37286ec24278759.bindPopup(popup_083cf60a7b884be09666705ec4de129a);
+
+            
+        
+    
+            var circle_marker_73b615f347be485cae4e6c2b0dd00bce = L.circleMarker(
+                [12.91814000000005,77.55940000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_4d3dec46705247a5b055bbd1ca2eeff9 = L.popup({maxWidth: '300'});
+
+            
+                var html_83b16c41f79e4ea7800ef018240afb0d = $('<div id="html_83b16c41f79e4ea7800ef018240afb0d" style="width: 100.0%; height: 100.0%;">Hosakerehalli, Padmanabhanagar</div>')[0];
+                popup_4d3dec46705247a5b055bbd1ca2eeff9.setContent(html_83b16c41f79e4ea7800ef018240afb0d);
+            
+
+            circle_marker_73b615f347be485cae4e6c2b0dd00bce.bindPopup(popup_4d3dec46705247a5b055bbd1ca2eeff9);
+
+            
+        
+    
+            var circle_marker_7d32cafa6a204cfa8a72c6d3bb5e8e98 = L.circleMarker(
+                [12.947163401610013,77.55479203719199],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_7e8c585a6ac148b788348785935b6422 = L.popup({maxWidth: '300'});
+
+            
+                var html_82efc379a7344b949c2315fef7aa0ce9 = $('<div id="html_82efc379a7344b949c2315fef7aa0ce9" style="width: 100.0%; height: 100.0%;">Giri Nagar, Basavanagudi</div>')[0];
+                popup_7e8c585a6ac148b788348785935b6422.setContent(html_82efc379a7344b949c2315fef7aa0ce9);
+            
+
+            circle_marker_7d32cafa6a204cfa8a72c6d3bb5e8e98.bindPopup(popup_7e8c585a6ac148b788348785935b6422);
+
+            
+        
+    
+            var circle_marker_128be6078ff74605b34ecf0aac4823ed = L.circleMarker(
+                [12.92497000000003,77.59011000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0de8aeb72a78488c8d133efaf61eb22a = L.popup({maxWidth: '300'});
+
+            
+                var html_0771fc5113e74708856c45f89ba39ed8 = $('<div id="html_0771fc5113e74708856c45f89ba39ed8" style="width: 100.0%; height: 100.0%;">Pattabhiram Nagar, Jayanagar</div>')[0];
+                popup_0de8aeb72a78488c8d133efaf61eb22a.setContent(html_0771fc5113e74708856c45f89ba39ed8);
+            
+
+            circle_marker_128be6078ff74605b34ecf0aac4823ed.bindPopup(popup_0de8aeb72a78488c8d133efaf61eb22a);
+
+            
+        
+    
+            var circle_marker_72bcea8005b24360b03de8e9bba518ff = L.circleMarker(
+                [12.935850000000073,77.58340000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_eab81cd5b135494ca59a1bdbaf8ce49e = L.popup({maxWidth: '300'});
+
+            
+                var html_74951d22400749c7a67708f393669790 = $('<div id="html_74951d22400749c7a67708f393669790" style="width: 100.0%; height: 100.0%;">Byrasandra, Jayanagar</div>')[0];
+                popup_eab81cd5b135494ca59a1bdbaf8ce49e.setContent(html_74951d22400749c7a67708f393669790);
+            
+
+            circle_marker_72bcea8005b24360b03de8e9bba518ff.bindPopup(popup_eab81cd5b135494ca59a1bdbaf8ce49e);
+
+            
+        
+    
+            var circle_marker_dd663c49903542c3a6ee2fec2bd20476 = L.circleMarker(
+                [12.941754012991108,77.59679604003176],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_04c80de5eeae4726ab634a8ec2f7dcee = L.popup({maxWidth: '300'});
+
+            
+                var html_4cc7450c3b064728ab1204fb986fe08e = $('<div id="html_4cc7450c3b064728ab1204fb986fe08e" style="width: 100.0%; height: 100.0%;">Jayanagar East, Jayanagar</div>')[0];
+                popup_04c80de5eeae4726ab634a8ec2f7dcee.setContent(html_4cc7450c3b064728ab1204fb986fe08e);
+            
+
+            circle_marker_dd663c49903542c3a6ee2fec2bd20476.bindPopup(popup_04c80de5eeae4726ab634a8ec2f7dcee);
+
+            
+        
+    
+            var circle_marker_7a4d896d09f646f0940c4150c3c611fc = L.circleMarker(
+                [12.917990000000032,77.60490000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_a9b72bd7dbbe497f8d50d0f27cb3bcf4 = L.popup({maxWidth: '300'});
+
+            
+                var html_d5641d26743b4fbe98055f72962a25ca = $('<div id="html_d5641d26743b4fbe98055f72962a25ca" style="width: 100.0%; height: 100.0%;">Gurappanapalya, Jayanagar</div>')[0];
+                popup_a9b72bd7dbbe497f8d50d0f27cb3bcf4.setContent(html_d5641d26743b4fbe98055f72962a25ca);
+            
+
+            circle_marker_7a4d896d09f646f0940c4150c3c611fc.bindPopup(popup_a9b72bd7dbbe497f8d50d0f27cb3bcf4);
+
+            
+        
+    
+            var circle_marker_9f30fc438c704a1489bcf4b036338b77 = L.circleMarker(
+                [12.910368572854768,77.64930070191588],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_2b7a5341031a4ce1b63308161e32739b = L.popup({maxWidth: '300'});
+
+            
+                var html_23ac5d04dc6046ada5205fa9717ad5ee = $('<div id="html_23ac5d04dc6046ada5205fa9717ad5ee" style="width: 100.0%; height: 100.0%;">HSR Layout, Bommanahalli</div>')[0];
+                popup_2b7a5341031a4ce1b63308161e32739b.setContent(html_23ac5d04dc6046ada5205fa9717ad5ee);
+            
+
+            circle_marker_9f30fc438c704a1489bcf4b036338b77.bindPopup(popup_2b7a5341031a4ce1b63308161e32739b);
+
+            
+        
+    
+            var circle_marker_704008f96046491c959e4f004d16d59d = L.circleMarker(
+                [12.903080000000045,77.62444000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0489c60a51004574b980c1b487a71605 = L.popup({maxWidth: '300'});
+
+            
+                var html_e21b1473b9734c288ef0982964562788 = $('<div id="html_e21b1473b9734c288ef0982964562788" style="width: 100.0%; height: 100.0%;">Bommanahalli, Bommanahalli</div>')[0];
+                popup_0489c60a51004574b980c1b487a71605.setContent(html_e21b1473b9734c288ef0982964562788);
+            
+
+            circle_marker_704008f96046491c959e4f004d16d59d.bindPopup(popup_0489c60a51004574b980c1b487a71605);
+
+            
+        
+    
+            var circle_marker_372742caa79b408e9ad76770a4f64e14 = L.circleMarker(
+                [12.908864304070953,77.60457381889752],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_aa29da0e2d7248f6b994ae29f6b92be0 = L.popup({maxWidth: '300'});
+
+            
+                var html_5e2e7443c91a43b680b2622804d870b4 = $('<div id="html_5e2e7443c91a43b680b2622804d870b4" style="width: 100.0%; height: 100.0%;">BTM Layout, B.T.M Layout</div>')[0];
+                popup_aa29da0e2d7248f6b994ae29f6b92be0.setContent(html_5e2e7443c91a43b680b2622804d870b4);
+            
+
+            circle_marker_372742caa79b408e9ad76770a4f64e14.bindPopup(popup_aa29da0e2d7248f6b994ae29f6b92be0);
+
+            
+        
+    
+            var circle_marker_1be28c183aad47c48c8b88e8eb39ca0a = L.circleMarker(
+                [12.928720000000055,77.58281000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_fecd40abeeac4aff92475a0b7dc976da = L.popup({maxWidth: '300'});
+
+            
+                var html_f5287b55e86c42fcaf47dcf6d77d59f6 = $('<div id="html_f5287b55e86c42fcaf47dcf6d77d59f6" style="width: 100.0%; height: 100.0%;">J.P.Nagar, Jayanagar</div>')[0];
+                popup_fecd40abeeac4aff92475a0b7dc976da.setContent(html_f5287b55e86c42fcaf47dcf6d77d59f6);
+            
+
+            circle_marker_1be28c183aad47c48c8b88e8eb39ca0a.bindPopup(popup_fecd40abeeac4aff92475a0b7dc976da);
+
+            
+        
+    
+            var circle_marker_46257e420f5c4b78a1792025a345bfe4 = L.circleMarker(
+                [12.908460000000048,77.58136000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_064990daebbb4d16a9b8d03e5604c452 = L.popup({maxWidth: '300'});
+
+            
+                var html_e21350fd53b14bb28f88f9d567c6236e = $('<div id="html_e21350fd53b14bb28f88f9d567c6236e" style="width: 100.0%; height: 100.0%;">Sarakki, Jayanagar</div>')[0];
+                popup_064990daebbb4d16a9b8d03e5604c452.setContent(html_e21350fd53b14bb28f88f9d567c6236e);
+            
+
+            circle_marker_46257e420f5c4b78a1792025a345bfe4.bindPopup(popup_064990daebbb4d16a9b8d03e5604c452);
+
+            
+        
+    
+            var circle_marker_4c527a32a5234b0c8ceaed8947084a06 = L.circleMarker(
+                [12.919740000000047,77.55543000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_5620d03029f145a4882835cfccb76ae0 = L.popup({maxWidth: '300'});
+
+            
+                var html_ebf71c1c846745cd808a00f0d859ef0c = $('<div id="html_ebf71c1c846745cd808a00f0d859ef0c" style="width: 100.0%; height: 100.0%;">Banashankari Temple Ward, Padmanabhanagar</div>')[0];
+                popup_5620d03029f145a4882835cfccb76ae0.setContent(html_ebf71c1c846745cd808a00f0d859ef0c);
+            
+
+            circle_marker_4c527a32a5234b0c8ceaed8947084a06.bindPopup(popup_5620d03029f145a4882835cfccb76ae0);
+
+            
+        
+    
+            var circle_marker_65d26dfb817d4dc48206f1e654a8d0df = L.circleMarker(
+                [12.902408445942408,77.56710489684555],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_63f3f155c4564089b192358c460da8db = L.popup({maxWidth: '300'});
+
+            
+                var html_d71750c2b2e049b8b6ff0a67466d80ac = $('<div id="html_d71750c2b2e049b8b6ff0a67466d80ac" style="width: 100.0%; height: 100.0%;">Kumaraswamy Layout, Padmanabhanagar</div>')[0];
+                popup_63f3f155c4564089b192358c460da8db.setContent(html_d71750c2b2e049b8b6ff0a67466d80ac);
+            
+
+            circle_marker_65d26dfb817d4dc48206f1e654a8d0df.bindPopup(popup_63f3f155c4564089b192358c460da8db);
+
+            
+        
+    
+            var circle_marker_fbfbce0b74214e6eb48151d510a4ce2c = L.circleMarker(
+                [12.915470000000028,77.55316000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_0fce3bc8d83844398f8c1e43195154b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_adcdeaffc8fe46f5968cb807b65123d6 = $('<div id="html_adcdeaffc8fe46f5968cb807b65123d6" style="width: 100.0%; height: 100.0%;">Padmanabha Nagar, Padmanabhanagar</div>')[0];
+                popup_0fce3bc8d83844398f8c1e43195154b3.setContent(html_adcdeaffc8fe46f5968cb807b65123d6);
+            
+
+            circle_marker_fbfbce0b74214e6eb48151d510a4ce2c.bindPopup(popup_0fce3bc8d83844398f8c1e43195154b3);
+
+            
+        
+    
+            var circle_marker_56acb75fb9694bf29633be5af2482407 = L.circleMarker(
+                [12.917003226633948,77.55151446884528],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_f7f2f4ae754f43daab3b3c3ee24c4c3d = L.popup({maxWidth: '300'});
+
+            
+                var html_9cd61c0d88664f859949c489ae56c78e = $('<div id="html_9cd61c0d88664f859949c489ae56c78e" style="width: 100.0%; height: 100.0%;">Chikkalasandra, Padmanabhanagar</div>')[0];
+                popup_f7f2f4ae754f43daab3b3c3ee24c4c3d.setContent(html_9cd61c0d88664f859949c489ae56c78e);
+            
+
+            circle_marker_56acb75fb9694bf29633be5af2482407.bindPopup(popup_f7f2f4ae754f43daab3b3c3ee24c4c3d);
+
+            
+        
+    
+            var circle_marker_0d6daf9ac96347dba8971b137f0371aa = L.circleMarker(
+                [12.913065038720879,77.55897105677614],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_11fd15801ed24ad0b61ec3404f01a2d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea176ce6b1e8475ea8cd30c26e4e60fe = $('<div id="html_ea176ce6b1e8475ea8cd30c26e4e60fe" style="width: 100.0%; height: 100.0%;">Uttarahalli, Bangalore South</div>')[0];
+                popup_11fd15801ed24ad0b61ec3404f01a2d0.setContent(html_ea176ce6b1e8475ea8cd30c26e4e60fe);
+            
+
+            circle_marker_0d6daf9ac96347dba8971b137f0371aa.bindPopup(popup_11fd15801ed24ad0b61ec3404f01a2d0);
+
+            
+        
+    
+            var circle_marker_76d7830c8f1a44f0ba227f2aca994230 = L.circleMarker(
+                [12.90044000000006,77.56865000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_fa77b79abcef4f419e9453f61610f07c = L.popup({maxWidth: '300'});
+
+            
+                var html_7747cc19556949aea6c7210b86f30de3 = $('<div id="html_7747cc19556949aea6c7210b86f30de3" style="width: 100.0%; height: 100.0%;">Yelachenahalli, Bangalore South</div>')[0];
+                popup_fa77b79abcef4f419e9453f61610f07c.setContent(html_7747cc19556949aea6c7210b86f30de3);
+            
+
+            circle_marker_76d7830c8f1a44f0ba227f2aca994230.bindPopup(popup_fa77b79abcef4f419e9453f61610f07c);
+
+            
+        
+    
+            var circle_marker_1361c666c8e94ac3b21c321de65a908b = L.circleMarker(
+                [12.900190000000066,77.57487000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_aa99a729b17e4de1ae37556a597a7413 = L.popup({maxWidth: '300'});
+
+            
+                var html_b42319e323de4d8c8a4cf76b09d45e2e = $('<div id="html_b42319e323de4d8c8a4cf76b09d45e2e" style="width: 100.0%; height: 100.0%;">Jaraganahalli, Bommanahalli</div>')[0];
+                popup_aa99a729b17e4de1ae37556a597a7413.setContent(html_b42319e323de4d8c8a4cf76b09d45e2e);
+            
+
+            circle_marker_1361c666c8e94ac3b21c321de65a908b.bindPopup(popup_aa99a729b17e4de1ae37556a597a7413);
+
+            
+        
+    
+            var circle_marker_4485ed9b0a19471382614295ae036847 = L.circleMarker(
+                [12.894340000000057,77.58507000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_44dca4a77445479aa298408aa642efe7 = L.popup({maxWidth: '300'});
+
+            
+                var html_565dd834831f4ec7b275f6e68f9fb7dc = $('<div id="html_565dd834831f4ec7b275f6e68f9fb7dc" style="width: 100.0%; height: 100.0%;">Puttenahalli, Bommanahalli</div>')[0];
+                popup_44dca4a77445479aa298408aa642efe7.setContent(html_565dd834831f4ec7b275f6e68f9fb7dc);
+            
+
+            circle_marker_4485ed9b0a19471382614295ae036847.bindPopup(popup_44dca4a77445479aa298408aa642efe7);
+
+            
+        
+    
+            var circle_marker_cbf0f6a71c844e0dabee3414ae8ac323 = L.circleMarker(
+                [12.899609984266,77.62870807867],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_79a4e4ac43d74ced80343e8766d7b540 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea572325244347949f64e394aea8a13e = $('<div id="html_ea572325244347949f64e394aea8a13e" style="width: 100.0%; height: 100.0%;">Hongasandra, Bommanahalli</div>')[0];
+                popup_79a4e4ac43d74ced80343e8766d7b540.setContent(html_ea572325244347949f64e394aea8a13e);
+            
+
+            circle_marker_cbf0f6a71c844e0dabee3414ae8ac323.bindPopup(popup_79a4e4ac43d74ced80343e8766d7b540);
+
+            
+        
+    
+            var circle_marker_04f7ff74c55540c2b43d62f2a3dae1a0 = L.circleMarker(
+                [12.904450000000054,77.64018000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_ce0488e49c784ef294fc097eb4f080d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_20ea9ef6645e4f77801401c8f7d6f1ba = $('<div id="html_20ea9ef6645e4f77801401c8f7d6f1ba" style="width: 100.0%; height: 100.0%;">Mangammanapalya, Bommanahalli</div>')[0];
+                popup_ce0488e49c784ef294fc097eb4f080d0.setContent(html_20ea9ef6645e4f77801401c8f7d6f1ba);
+            
+
+            circle_marker_04f7ff74c55540c2b43d62f2a3dae1a0.bindPopup(popup_ce0488e49c784ef294fc097eb4f080d0);
+
+            
+        
+    
+            var circle_marker_175250f781c74f46a1b8a0852d4ef85a = L.circleMarker(
+                [12.871560000000045,77.63846000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_d7ce706c41c644858d8e69cfcff5bebb = L.popup({maxWidth: '300'});
+
+            
+                var html_2c567e7f311c428ead3a74fd88149e97 = $('<div id="html_2c567e7f311c428ead3a74fd88149e97" style="width: 100.0%; height: 100.0%;">Singasandra, Bangalore South</div>')[0];
+                popup_d7ce706c41c644858d8e69cfcff5bebb.setContent(html_2c567e7f311c428ead3a74fd88149e97);
+            
+
+            circle_marker_175250f781c74f46a1b8a0852d4ef85a.bindPopup(popup_d7ce706c41c644858d8e69cfcff5bebb);
+
+            
+        
+    
+            var circle_marker_dbf5cb62ae55430c95598d3844af0fef = L.circleMarker(
+                [12.882450000000063,77.62475000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_42730090ea8d4df594e29d4e199bc040 = L.popup({maxWidth: '300'});
+
+            
+                var html_79f40d429f964a5a978a00190172f709 = $('<div id="html_79f40d429f964a5a978a00190172f709" style="width: 100.0%; height: 100.0%;">Begur, Bangalore South</div>')[0];
+                popup_42730090ea8d4df594e29d4e199bc040.setContent(html_79f40d429f964a5a978a00190172f709);
+            
+
+            circle_marker_dbf5cb62ae55430c95598d3844af0fef.bindPopup(popup_42730090ea8d4df594e29d4e199bc040);
+
+            
+        
+    
+            var circle_marker_958729395c434d2a998fe1204dea625f = L.circleMarker(
+                [12.845168309478922,77.59603465422272],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_d2c476982afe476daf3b1f8cda8603f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_e7859109a8074eed984bd9ec75240097 = $('<div id="html_e7859109a8074eed984bd9ec75240097" style="width: 100.0%; height: 100.0%;">Gottigere, Bangalore South</div>')[0];
+                popup_d2c476982afe476daf3b1f8cda8603f5.setContent(html_e7859109a8074eed984bd9ec75240097);
+            
+
+            circle_marker_958729395c434d2a998fe1204dea625f.bindPopup(popup_d2c476982afe476daf3b1f8cda8603f5);
+
+            
+        
+    
+            var circle_marker_7757d5eb07024a1f81314eec2dac5024 = L.circleMarker(
+                [12.890387359226194,77.56178833808649],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_eb0eb123502848a9b54c40023ebc0b16 = L.popup({maxWidth: '300'});
+
+            
+                var html_332ad096c03e4155ab4ca2d4ff258c20 = $('<div id="html_332ad096c03e4155ab4ca2d4ff258c20" style="width: 100.0%; height: 100.0%;">Konanakunte, Bangalore South</div>')[0];
+                popup_eb0eb123502848a9b54c40023ebc0b16.setContent(html_332ad096c03e4155ab4ca2d4ff258c20);
+            
+
+            circle_marker_7757d5eb07024a1f81314eec2dac5024.bindPopup(popup_eb0eb123502848a9b54c40023ebc0b16);
+
+            
+        
+    
+            var circle_marker_2faea06de22b4ca0975e156ce71a3def = L.circleMarker(
+                [12.858110000000067,77.55909000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_02b934b94ca2428ba2ed026536e373a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_3ba162f8eff9433492a11497a5f983c0 = $('<div id="html_3ba162f8eff9433492a11497a5f983c0" style="width: 100.0%; height: 100.0%;">Anjanapur, Bangalore South</div>')[0];
+                popup_02b934b94ca2428ba2ed026536e373a9.setContent(html_3ba162f8eff9433492a11497a5f983c0);
+            
+
+            circle_marker_2faea06de22b4ca0975e156ce71a3def.bindPopup(popup_02b934b94ca2428ba2ed026536e373a9);
+
+            
+        
+    
+            var circle_marker_b877aee4088442e29d390f9802f32b46 = L.circleMarker(
+                [12.896530000000041,77.55196000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_ad20b6e4c2934d5981ba7c37f4f1bd8b);
+            
+    
+            var popup_a7fc585e109f4b6995283829a48a83b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_7bb582f6b5b84603a7557c3a94f47979 = $('<div id="html_7bb582f6b5b84603a7557c3a94f47979" style="width: 100.0%; height: 100.0%;">Vasanthapura, Bangalore South</div>')[0];
+                popup_a7fc585e109f4b6995283829a48a83b3.setContent(html_7bb582f6b5b84603a7557c3a94f47979);
+            
+
+            circle_marker_b877aee4088442e29d390f9802f32b46.bindPopup(popup_a7fc585e109f4b6995283829a48a83b3);
+
+            
+        
+</script>
